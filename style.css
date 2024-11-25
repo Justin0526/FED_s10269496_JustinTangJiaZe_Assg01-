@@ -6,69 +6,69 @@
 }
 
 body{
-    overflow-x: hidden;
     width: 100%;
-    /* background-color: rgb(78, 78, 4); */
+    max-width: 100%;
 }
+
 .Header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem 5%;
     flex-wrap: nowrap;
     width: 100%;
-    overflow-x: visible;
-    overflow: scroll;
-}
+    max-width: 100%;
+    flex-shrink: 1;
 
-.Header img{
-    max-width: 510px;
-    height: auto;
-}
+    img{
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
+    }
 
-.Header p{
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgb(89, 103, 15);
-    text-align: center;
-    white-space: nowrap;
-    flex-grow: 1;
-    overflow-x: visible;
+    p{
+        font-size: 6vw;
+        font-weight: bold;
+        color: rgb(89, 103, 15);
+        text-align: center;
+        white-space: nowrap;
+        flex-grow: 1;
+        overflow-x: visible;
+    }
 }
 
 /* Navigation bar */
 .navbar{
     background-color: crimson;
     font-family: calibri;
-    padding: 1rem 5%;
     width: 100%;
-}
+    max-width: 100%;
 
-.navdiv{
-    display: flex; 
-    align-items: center; 
-    justify-content:center;
-    flex-wrap: nowrap;
-}
-
-.navlist{
-    display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-li{
-    list-style: none;
-}
-
-li a{
-    font-size: 1.2rem;
-    color: white;
-    margin: 0.5rem;
-    padding: 0.5rem;
-    display: block;
+    .navdiv{
+        display: flex; 
+        justify-content:space-between;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    
+    .navlist{
+        display: flex;
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 5rem;
+    }
+    
+    li{
+        list-style: none;
+    }
+    
+    li a{
+        font-size: 1.5vw;
+        color: white;
+        margin: 0.5rem;
+        display: block;
+    }
 }
 
 
@@ -76,91 +76,88 @@ li a{
     /* Image */
     .img {
         position: relative;
+
+        img{
+            filter: brightness(0.5);
+        }
+
+        h1{
+            position: absolute;
+            top: 20vw;
+            left: 40vw;
+            font-size:5vw;
+            color: white;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
-
-    .img img{
-        filter: brightness(0.5);
-    }
-
-    .img h1{
-        position: absolute;
-        top: 200px;
-        font-size:80px;
-        color: white;
-
-        display: flex;
-        justify-content: center;
-        padding-left: 500px;
-    }
-
     /* Video */
     .video{
         padding-top: 5rem;
-        padding-left: 10rem;
-        padding-right: 10rem;
         padding-bottom: 5rem;
         display: flex;
         justify-content: center;
     }
 
     /* Swim With Us */ 
-    .swimTgt h2{
+    .swimTgt{
         display: flex;
-        justify-content: center;
-        font-size: 3rem;
-        padding-bottom: 1.5rem;
-    }
+        flex-direction: column;
+        align-items: center;
+        max-width: 80%;
+        margin: 0 auto;
+        
 
-    .swimTgt {
-        padding-left: 10rem;
-        padding-right: 10rem;
-    }
+        h2{
+            font-size: 3rem;
+            text-align: center;
+            padding-bottom: 1.5rem;
+        }
 
-    .swimTgt p{
-        display:flex;
-        padding-left: 10rem;
-        padding-right: 10rem;
-        font-size: 28px;
-        line-height: 1.5;
-        padding-bottom: 2rem;
-    }
+        p{
+            font-size: 2rem;
+            line-height: 1.5;
+            text-align:center;
+            width: 70%;
+            margin-bottom: 5rem;
+        }
+    } 
 
     /* Program */ 
     .program {
-        padding-left: 19rem;
-        padding-right: 19rem;
-        font-size: 1.8rem;
-
+        font-size: 1.8vw;
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
-        gap: 4rem;
-        justify-content: space-between;
+        gap: 1rem;
+        justify-content: center;;
+        max-width: 80%;
+        margin: 0 auto;
 
         section{
+            flex-basis: 40%;
             position: relative;
             display: flex;
-            flex-direction: column;
-            align-items: center;
+            align-items:center;
             justify-content: center;
-            text-align: center;
             border-radius: 0.5rem;
-            box-sizing: border-box;
         }
 
         h3 a {
             margin: 0;
-            padding: 0;
-            font-size: 1.8rem;
+            padding: 0; 
+            font-size: 1.6vw;
             position: absolute;
             z-index: 1000;
             color: white;
 
             display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
+            align-items:flex-start;
+            justify-content:center;
+            width: 60%;
             height: 100%;
-            padding-right: 40rem;
             white-space: nowrap;
         }
 
@@ -172,56 +169,72 @@ li a{
     }
     
 
-   /* Contact us */ 
+   /* Contact us */
+   /* use table */ 
    .contact{
     padding-top: 1.2rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
    }
 
     .contact h2{
-        display: flex;
-        justify-content: center;
         font-size: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .contact table{
+        width: 50%;
+        border-collapse: collapse;
+    }
+
+    .contact .form-table{
+        vertical-align: top;
+        width: 60%;
+    }
+
+    .form table .form-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .contact label{
         font-size: 2.2rem;
-        display: inline-block;
+        display: flex;
+        justify-content: flex-start;
         margin-bottom: 1.2rem;
         font-weight: bold;
         color: #333;
-        padding-left: 20rem;
     }
 
     .contact input{
-        display:block;
+        display:flex;
+        justify-content: center;
         margin-bottom: 2.2rem;
         font-size: 1.5rem;  
         border-radius: 1rem;
-        margin-left: 20rem;
-        width: 25rem;
-        height: 4rem;
-        padding-left: 7rem;
+        width: 80%;
+        height: 3vw;
     }
 
-    .map{
-        display: flex;
-        flex-shrink: 0;
+    .contact .map-table{
+        margin-bottom: 3vw;
     }
 
-    form{
-        flex: 1;
-    }
 
 /* footer */ 
 .foot{
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     background-color: black;
     color: white;
-    padding: 2rem 10%;
     justify-content:center;
     text-align: center;
     width: 100%;
+    flex-shrink: 1;
 }
 
 .footTitle{
@@ -236,9 +249,15 @@ li a{
     flex-direction: column;
     justify-content: center;
     line-height: 2.2;
-    padding:0;
     width: 100%;
+    list-style: none;
 }
+
+.infoList a{
+    color: white;
+    font-size: 1.5rem;
+}
+
 .row{
     display: flex;
     justify-content: center;
@@ -247,47 +266,127 @@ li a{
     margin-bottom: 0.5rem;
     white-space: nowrap;
 }
-
-
 .socialMedia{
     display:flex;
     justify-content: center;
     gap: 1rem;
-    width: 1000%;
-}
+    width: 100%;
+}   
 
 .socialMedia a{
-    color: white;
     font-size: 1.5rem;
+    
 }
 
+
 @media (max-width: 576px){
+    body{
+        background-color: pink;
+    }
+
     .Header a img{
-        width: 60%;
+        width: 10%;
     }
-    .Header p {
-        font-size: 1.5rem !important;
+    .Header  p {
+        font-size: 4vw;
+        background-color: yellow;
     }
-    li a{
-        font-size: 1rem;
+
+    .navbar {
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        .navdiv .navlist li a {
+            font-size: 2.6vw;
+            color: white;
+            margin: 0.5rem;
+            display: block;
+        }
     }
+
+    .img{
+        h1{
+            font-size: 2w;
+        }
+    }
+
+    .video {
+        display: flex;
+        justify-content: center; /* Centers the video horizontally */
+        width: 100%;
+    }
+    
+    .video iframe {
+        width: 80%;
+        height: 60vw;
+    }
+
+    /* program */
+    .program{
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        h3 a{
+            font-size: 3.2vw;
+            width: 100%;
+        }
+        a img{
+            display: flex;
+            align-content: flex-start;
+            width: 100%;
+            height: 100%;
+            margin-bottom: 5%;
+        }
+    }
+
+    /* contact us */ 
+    .contact{
+        table{
+            display: block;
+        }
+
+        .form-table, 
+        .map-table{
+            display: block;
+        }
+    }
+
+    .contact input{
+        width: 50vw;
+        height: 11vw;
+    }
+
+
+    .contact .map-table iframe {
+        width: 100%; /* Make the iframe responsive */
+        height: 40vh; /* Set height relative to viewport */
+        max-width: 100%; /* Ensure it doesn't exceed container */
+        border: none; /* Remove borders that may cause overflow */
+    }
+
+    /* footer */ 
     .footTitle{
-        font-size: 1.5rem;
+        font-size: 6vw;
+    }
+
+    .infoList a{
+        font-size: 3vw;
+        display: flex;
+        justify-content: space-evenly;
     }
 
     .row{
-        gap: 0.5rem;
+        gap: 6vw;
     }
 }
 
-@media (min-width: 577px){
+@media (max-width: 920px){
     .Header{
         justify-content: space-between;
-        padding: 1rem 5%;
+        
     }
 
     .Header p{
-        font-size: 5rem;
         justify-content: center;
     }
 
@@ -295,17 +394,27 @@ li a{
         flex-direction: column;
     }
 
-    .navbar{
-        padding: 1rem 5%;
-    }
-
     .navlist li a{
         font-size: 2rem;
     }
 
-    .infoList{
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
+    .program{
+        section{
+            flex-basis: calc(50% - 2rem)
+        }
+    }
+
+    .contact .map-table iframe{
+        width: 40rem;
+        height: 25rem;
+    }
+
+    /* footer */
+    .foot{
+        .infoList{
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5rem;    
+        }
     }
 }
