@@ -225,7 +225,6 @@ body{
 
 
 /* Contact us */
-/* use table */ 
 .contact{
 padding-top: 1.2rem;
 max-width: 100%;
@@ -276,6 +275,19 @@ align-items: center;
 
 .contact .map-table{
     margin-bottom: 3vw;
+}
+
+.submit{
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+    border-radius: 0.5rem;
+    width: 20%;
+    height: 2.4vw;
+}
+
+button:hover,
+input[type="submit"]:hover{
+    background-color: aqua;
 }
 
 
