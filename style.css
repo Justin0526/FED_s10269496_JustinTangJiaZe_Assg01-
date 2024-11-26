@@ -517,6 +517,42 @@ h2 {
     cursor: pointer; /* Pointer cursor for interactivity */
 }
 
+/* Preferred Day */
+.Day{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+    left: 8%;
+    max-width: 80%;
+    margin-bottom: 2vw;
+}
+.Day .CheckboxDay {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto new rows */
+    gap: 3.8vw; /* space between items */
+    justify-content: center;
+  }
+  
+.Day .CheckboxDay label {
+    flex: 1 1 30%; /* Each label takes 30% of the container width */
+    box-sizing: border-box; /* Ensures padding/border doesn’t affect the width */
+    margin-bottom: 0.5vw;; /* space between rows */
+    font-size: 1.8vw;
+    display: flex; /* Ensure that the checkbox and label align properly */
+    align-items: center; /* Vertically align the checkbox with the label */
+  }
+
+.Day .CheckboxDay input{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2vw;
+}
+  
+.Day h2 {
+    margin-bottom: 2vw; /* Space between heading and checkboxes */
+  }
+
+
 /* screen resize*/
 @media (max-width: 576px){
     body{
@@ -721,7 +757,6 @@ h2 {
         font-size: 5vw; /* Increase heading size */
         margin-bottom: 2vw; /* Adjust space below the heading */
     }
-    
 }
 
 @media (max-width: 920px){
