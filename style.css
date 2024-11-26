@@ -757,6 +757,20 @@ h2 {
         font-size: 5vw; /* Increase heading size */
         margin-bottom: 2vw; /* Adjust space below the heading */
     }
+
+    /* Perferred Day */
+    .Day{
+        width:90%;
+        left: 3%;
+    }
+
+    .Day h2{
+        font-size: 4.5vw;
+    }
+
+    .Day .CheckboxDay label{
+        font-size: 3vw;
+    }
 }
 
 @media (max-width: 920px){
