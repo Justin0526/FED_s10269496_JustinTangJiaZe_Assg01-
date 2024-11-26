@@ -481,7 +481,7 @@ h2 {
     align-items: center; /* Centers form elements horizontally */
 }
 
-.from-content section {
+.signUpForm .from-content section {
     margin-bottom: 2vw; /* Adds space between each section */
     display: flex;
     flex-direction: column;
@@ -489,13 +489,13 @@ h2 {
     width: 100%;
 }
 
-.from-content label{
+.signUpForm .from-content label{
     width: 100%;
     font-size: 1.7vw;
     margin-bottom: 1vw;
 }
 
-.from-content input {
+.signUpForm .from-content input {
     width: 50vw;
     height: 3.2vw;
     border-radius: 0.8vw;
@@ -505,7 +505,7 @@ h2 {
     padding-left: 2%;
 }
 
-.from-content select {
+.signUpForm .from-content select {
     width: 50vw; /* Same width as input fields */
     height: 3.2vw; /* Same height as input fields */
     border-radius: 0.8vw; /* Same border-radius as input fields */
@@ -514,8 +514,6 @@ h2 {
     font-size: 1vw; /* Same font size as input fields */
     padding-left: 2%; /* Same padding as input fields */
     background-color: #fff; /* White background for consistency */
-    appearance: none; /* Remove default dropdown arrow */
-    padding-right: 2rem; /* Space for custom dropdown arrow */
     cursor: pointer; /* Pointer cursor for interactivity */
 }
 
@@ -670,13 +668,59 @@ h2 {
     }
 
     /* After lts */
+    .afterLts h2{
+        margin-top: 2vw;
+        font-size: 4.2vw;
+    }
+
+    .Teams{
+        flex-direction: column; /*stack vertically*/
+        align-items: center;
+    }
+
+
+    .Teams section {
+        max-width: 100%; /* Use full width of the container */
+        flex: 1 1 100%; /* Each section takes full width */
+        margin-bottom: 4vw;;
+    }
+
+
     .afterLts .Teams h3{
         top: 30%;
+        font-size: 5vw;   
     }
     .afterLts .Teams p{
-        font-size: 1.7vw;
+        font-size: 4vw;
+    }
+
+    .afterLts .learnMore {
+        width: 80%; /* Adjust button width for smaller screens */
+        height: 8vw; /* Increase button height */
+        font-size: 4vw; /* Increase font size for better readability */
     }
     
+    /* Sign-up form */
+    .signUpForm form {
+        width: 90%; /* Expand the form width on small screens */
+    }
+
+    .signUpForm .from-content label {
+        font-size: 3vw; /* Increase label font size */
+    }
+
+    .signUpForm .from-content input,
+    .signUpForm .from-content select {
+        width: 80vw; /* Increase input and select width */
+        height: 5vw; /* Increase input and select height */
+        font-size: 2.5vw; /* Increase font size */
+        padding-left: 3%; /* Adjust padding for input and select */
+    }
+
+    .signUpForm h2 {
+        font-size: 5vw; /* Increase heading size */
+        margin-bottom: 2vw; /* Adjust space below the heading */
+    }
     
 }
 
