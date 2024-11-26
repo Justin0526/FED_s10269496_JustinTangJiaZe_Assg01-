@@ -467,6 +467,58 @@ h2 {
     height: 3.8vw;
 }
 
+/* sign-up Form */ 
+.signUpForm {
+    display: flex;
+    justify-content: center; /* Horizontally centers the form on the page */
+    align-items: center; /* Vertically centers the form on the page */
+    margin-bottom: 2vw;
+}
+
+.signUpForm form {
+    display: flex;
+    flex-direction: column; /* Stacks sections vertically */
+    align-items: center; /* Centers form elements horizontally */
+}
+
+.from-content section {
+    margin-bottom: 2vw; /* Adds space between each section */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.from-content label{
+    width: 100%;
+    font-size: 1.7vw;
+    margin-bottom: 1vw;
+}
+
+.from-content input {
+    width: 50vw;
+    height: 3.2vw;
+    border-radius: 0.8vw;
+    border: 0 transparent;
+    border-bottom: 0.2em solid #ccc;
+    font-size: 1vw;
+    padding-left: 2%;
+}
+
+.from-content select {
+    width: 50vw; /* Same width as input fields */
+    height: 3.2vw; /* Same height as input fields */
+    border-radius: 0.8vw; /* Same border-radius as input fields */
+    border: 0 transparent; /* Removes the border */
+    border-bottom: 0.2em solid #ccc; /* Same border style as input fields */
+    font-size: 1vw; /* Same font size as input fields */
+    padding-left: 2%; /* Same padding as input fields */
+    background-color: #fff; /* White background for consistency */
+    appearance: none; /* Remove default dropdown arrow */
+    padding-right: 2rem; /* Space for custom dropdown arrow */
+    cursor: pointer; /* Pointer cursor for interactivity */
+}
+
 /* screen resize*/
 @media (max-width: 576px){
     body{
