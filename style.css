@@ -287,6 +287,7 @@ align-items: center;
 button:hover,
 input[type="submit"]:hover{
     background-color: aqua;
+    cursor: pointer;
 }
 
 /* LTS Kids page */
@@ -395,6 +396,75 @@ input[type="submit"]:hover{
     max-width: 100%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
     border-radius: 0.5rem; /* Optional: add rounded corners */
+}
+
+/* after LTS */
+.afterLts {
+    text-align: center; /* Centers the text inside the container */
+    display: flex; /* Makes the container a flexbox */
+    flex-direction: column; /* Stacks heading and Teams container vertically */
+    align-items: center; /* Horizontally centers content */
+    justify-content: center;
+    margin-bottom: 2vw;
+}
+
+h2 {
+    margin-bottom: 2rem; /* Adds space between heading and the Teams section */
+    font-size: 2.4vw; /* Sets a responsive font size */
+}
+
+.Teams {
+    display: flex; /* Enables flexbox for the sections */
+    justify-content: center; /* Centers the sections horizontally */
+    gap: 4%; /* Adds even spacing between the sections */
+    flex-wrap: wrap; /* Ensures sections wrap on smaller screens */
+    width: 100%; /* Uses full width of the container */
+    max-width: 80%; /* Restricts max width for larger screens */
+    margin-bottom: 2vw;
+}
+
+.Teams section {
+    flex: 1 1 calc(50% - 1vw); /* Makes each section flexible and responsive */
+    max-width: 30%; /* Limits sections to 30% width of the container */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+
+}
+
+.Teams img {
+    width: 80%; /* Makes images scale to the section's width */
+    height: auto; /* Maintains image aspect ratio */
+    border-radius: 0.8rem; /* Optional: Adds rounded corners */
+    filter: brightness(0.5);
+    position: relative;
+    margin-bottom:4%;
+}
+
+.Teams h3{
+    position: absolute; 
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Adjusts to perfectly center the text */
+    color: white; /* Optional: Makes the text stand out against the image */
+    font-size: 2.0vw; /* Adjusts the size of the text */
+    display: flex;
+    align-items: center ;
+    justify-content: center;    
+}
+
+.Teams p{
+    font-size: 1vw;
+}
+
+.learnMore {
+    font-size: 2.2vw;
+    width: 50%;
+    border-radius: 0.8vw;;
+    height: 3.8vw;
 }
 
 /* screen resize*/
@@ -546,6 +616,16 @@ input[type="submit"]:hover{
     .right-section img {
         width: 60%;
     }
+
+    /* After lts */
+    .afterLts .Teams h3{
+        top: 30%;
+    }
+    .afterLts .Teams p{
+        font-size: 1.7vw;
+    }
+    
+    
 }
 
 @media (max-width: 920px){
