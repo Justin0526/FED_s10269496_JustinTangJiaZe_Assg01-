@@ -786,11 +786,10 @@ h2 {
     }
 
     .Header a img{
-        width: 10%;
+        width: 60%;
     }
     .Header  p {
         font-size: 4vw;
-        background-color: yellow;
     }
 
     .navbar {
@@ -836,6 +835,14 @@ h2 {
     .video iframe {
         width: 80%;
         height: 60vw;
+    }
+
+    .swimTgt h2{
+        font-size: 5vw;
+    }
+
+    .swimTgt p{
+        font-size: 2.8vw;
     }
 
     /* program */
