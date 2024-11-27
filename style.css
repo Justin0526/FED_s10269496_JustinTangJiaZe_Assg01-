@@ -611,10 +611,14 @@ h2 {
     padding-left: 1.5%;
 }
 
-.submit{
+.submitSignUp{
     width: 30%;
     position: relative;
     left: 35%;
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+    border-radius: 0.5rem;
+    height: 2.4vw;
 }
 
 
@@ -869,10 +873,11 @@ h2 {
         padding-bottom: 10%;
     }
 
-    .submit{
+    .submitSignUp{
         width: 40%;
         position: relative;
         left: 27%;
+        font-size: 2vw;
     }
 }
 
