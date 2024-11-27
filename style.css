@@ -8,8 +8,48 @@
 body{
     width: 100%;
     max-width: 100%;
+    background-color: rgb(255, 255, 255);
 }
 
+.archivo-black-regular {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Use vaue from 200 -1000 for wieght  */
+  .montserrat-content {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Use a value from 300 to 800 */
+  .parkinsans-content {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .fira-sans-semibold {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+h2{
+    font-family: "Archivo Black", sans-serif;
+}
+p{
+    font-family: "Roboto", sans-serif;
+}
 .Header {
     display: flex;
     align-items: center;
@@ -25,13 +65,13 @@ body{
     }
 
     p{
-        font-size: 6vw;
+        font-size: 4.5vw;
         font-weight: bold;
-        color: rgb(0, 0, 0);
+        font-family: "Archivo Black", sans-serif;
+        color: rgb(228, 119, 141);
         text-align: center;
         white-space: nowrap;
         flex-grow: 1;
-        overflow-x: visible;
     }
 }
 
@@ -69,6 +109,7 @@ body{
         color: white;
         margin: 0.5rem;
         display: block;
+        font-family:"Roboto", sans-serif;
     }
 }
 
@@ -142,9 +183,10 @@ body{
         top: 10%; /* Places it near the top */
         left: 50%;
         transform: translateX(-50%);
-        color:white;
+        color:rgb(0, 255, 255);
         font-size: 6vw;
         text-align: center;
+        font-family: "Archivo Black", sans-serif;
     }
 }
 /* Video */
@@ -165,17 +207,19 @@ body{
     
 
     h2{
-        font-size: 3rem;
+        font-size: 3vw;
         text-align: center;
         padding-bottom: 1.5rem;
+        font-family: "Archivo Black", sans-serif;
     }
 
     p{
-        font-size: 2rem;
+        font-size: 1.6vw;
         line-height: 1.5;
         text-align:center;
         width: 70%;
         margin-bottom: 5rem;
+        font-family: "Roboto", sans-serif;
     }
 } 
 
