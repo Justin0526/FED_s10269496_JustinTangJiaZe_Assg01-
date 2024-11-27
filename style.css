@@ -524,6 +524,7 @@ input[type="submit"]:hover{
 h2 {
     margin-bottom: 2rem; /* Adds space between heading and the Teams section */
     font-size: 2.4vw; /* Sets a responsive font size */
+    font-family: "Dancing Script", cursive;
 }
 
 .Teams {
@@ -564,6 +565,7 @@ h2 {
     transform: translate(-50%, -50%); /* Adjusts to perfectly center the text */
     color: white; /* Optional: Makes the text stand out against the image */
     font-size: 2.0vw; /* Adjusts the size of the text */
+    font-family: "Protest Revolution", sans-serif;
     display: flex;
     align-items: center ;
     justify-content: center;    
@@ -571,11 +573,13 @@ h2 {
 
 .Teams p{
     font-size: 1vw;
+    font-family: "Sour Gummy", sans-serif;
 }
 
 .learnMore {
     font-size: 2.2vw;
-    width: 50%;
+    font-family: "Protest Revolution", sans-serif;
+    width: 35%;
     border-radius: 0.8vw;
     border: 0 transparent; 
     border-bottom: 0.2em solid #ccc;
