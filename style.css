@@ -43,6 +43,40 @@ body{
     font-weight: 600;
     font-style: normal;
   }
+
+  .protest-revolution-regular {
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ /* Use a value from 400 to 700 */
+
+.dancing-script-dances {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+ /* <weight>: Use a value from 100 to 900 */
+
+.sour-gummy-Bear {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
   
 h2{
     font-family: "Archivo Black", sans-serif;
@@ -70,14 +104,18 @@ p{
         color: rgb(0, 0, 0);
         text-align: center;
         white-space: nowrap;
-        margin-right: 6%;
+        margin-right: 14%;
     }
 
     .menu{
         display: flex;
         margin-right: 2.5%;
+        align-items: center;
         a{
             margin-right: 10%;
+        }
+        .menu a:last-child {
+            margin-right: 0; /* Removes the margin from the last item */
         }
     }
 }
@@ -116,7 +154,7 @@ p{
         color: white;
         margin: 0.5rem;
         display: block;
-        font-family:"Roboto", sans-serif;
+        font-family: "Dancing Script", cursive;;
     }
 }
 
@@ -193,7 +231,7 @@ p{
         color:rgb(137, 235, 235);
         font-size: 5vw;
         text-align: center;
-        font-family: "Archivo Black", sans-serif;
+        font-family: "Protest Revolution", sans-serif;
         white-space: nowrap;
     }
 }
@@ -218,7 +256,7 @@ p{
         font-size: 3vw;
         text-align: center;
         padding-bottom: 1.5rem;
-        font-family: "Archivo Black", sans-serif;
+        font-family: "Dancing Script", cursive;
     }
 
     p{
@@ -227,7 +265,7 @@ p{
         text-align:center;
         width: 70%;
         margin-bottom: 5rem;
-        font-family: "Roboto", sans-serif;
+        font-family: "Sour Gummy", sans-serif;
     }
 } 
 
@@ -254,7 +292,8 @@ p{
     h3 a {
         margin: 0;
         padding: 0; 
-        font-size: 1.6vw;
+        font-size: 1.5vw;
+        font-family: "Pacifico", cursive;
         position: absolute;
         z-index: 1000;
         color: white;
@@ -285,7 +324,8 @@ align-items: center;
 }
 
 .contact h2{
-    font-size: 2.4rem;
+    font-size: 2.8vw;
+    font-family: "Dancing Script", cursive;
     margin-bottom: 2rem;
 }
 
@@ -307,6 +347,7 @@ align-items: center;
 
 .contact label{
     font-size: 2.0vw;
+    font-family: "Protest Revolution", sans-serif;
     display: flex;
     justify-content: flex-start;
     margin-bottom: 1.2rem;
@@ -319,9 +360,12 @@ align-items: center;
     justify-content: center;
     margin-bottom: 2.2rem;
     font-size: 1.2vw;  
+    font-family: "Parkinsans", sans-serif;
     border-radius: 1rem;
     width: 80%;
     height: 3vw;
+    border: 0 transparent; 
+    border-bottom: 0.2em solid #ccc;
 }
 
 .contact .map-table{
@@ -329,11 +373,14 @@ align-items: center;
 }
 
 .submit{
-    font-size: 1.4vw;
+    font-size: 1.6vw;
+    font-family: "Dancing Script", cursive;
     margin-bottom: 2vw;
     border-radius: 0.5rem;
     width: 20%;
     height: 2.4vw;
+    border: 0 transparent; 
+    border-bottom: 0.2em solid #ccc;
 }
 
 button:hover,
@@ -367,7 +414,7 @@ input[type="submit"]:hover{
             color:rgb(137, 235, 235);
             font-size: 5vw;
             text-align: center;
-            font-family: "Archivo Black", sans-serif;
+            font-family: "Protest Revolution", sans-serif;
             white-space: nowrap;
         }
 
@@ -606,7 +653,7 @@ h2 {
     margin-bottom: 2vw; /* Space between heading and checkboxes */
   }
 
-  /* Preferred Day */
+  /* Preferred Time */
 .Time{
     width:80%;
     margin: 0 auto;
@@ -691,9 +738,10 @@ h2 {
         top: 10%; /* Places it near the top */
         left: 50%;
         transform: translateX(-50%);
-        color:white;
+        color:rgb(137, 235, 235);
         font-size: 6vw;
         text-align: center;
+        font-family: "Protest Revolution", sans-serif;
     }
 }
 
