@@ -75,6 +75,12 @@ body{
     font-weight: 400;
     font-style: normal;
   }
+
+  .lilita-one-regular {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
   
   
   
@@ -101,7 +107,7 @@ p{
         font-size: 3.5vw;
         font-weight: bold;
         font-family: "Archivo Black", sans-serif;
-        color: rgb(0, 0, 0);
+        color: rgb(13, 95, 150);
         text-align: center;
         white-space: nowrap;
         margin-right: 14%;
@@ -422,9 +428,11 @@ input[type="submit"]:hover{
             position: absolute;
             top: 70%; /* Places it near the bottom */
             right: 10%;  /* Aligns to the right corner */
-            font-size: 3vw;
-            color: orange;
-            background-color: green;
+            font-size: 2.2vw;
+            padding: 0.6vw;
+            font-family: "Fira Sans", sans-serif;
+            color:rgb(137, 235, 235);
+            background-color: rgb(8, 64, 83);
             border-radius: 1vw;
             cursor: pointer;
         }
@@ -437,7 +445,6 @@ input[type="submit"]:hover{
     justify-content:flex-start;
     margin-left: 10%;
     margin-bottom: 2vw;
-    box-sizing: border-box;
 }
        
 /* Parent container styling */
@@ -450,20 +457,22 @@ input[type="submit"]:hover{
 /* Left section */
 .left-section {
     flex: 2 ; /* Take up more space proportionally */
-    font-size: 1vw;
 }
 
 .left-section section{
     margin-bottom: 2rem;
     h3{
-        font-size: 1.5vw;
+        font-size: 1.6vw;
+        font-family: "Protest Revolution", sans-serif;
         margin-bottom: 0.6vw;
+        margin-top: 0.6vw;
     }
     #age{
         margin-bottom: 1vw;
     }
     p{
         font-size: 1.3vw;
+        font-family: "Protest Revolution", sans-serif;
     }
     #registrationFee{
         margin-top:0.4vw;
@@ -471,8 +480,9 @@ input[type="submit"]:hover{
     }
 }
 
-.left-section h3{
-    font-size: 1.4vw;
+.left-section h2{
+    font-size: 1.9vw;
+    font-family: "Dancing Script", cursive;
     margin-bottom: 2%;
 }
 .left-section .why-box{
@@ -480,6 +490,7 @@ input[type="submit"]:hover{
         margin-bottom: 1rem;
         width: 65%;
         font-size: 1.2vw;
+        font-family: "Sour Gummy", sans-serif;
     }
 }
 
@@ -496,7 +507,8 @@ input[type="submit"]:hover{
     width: 100%;
     max-width: 100%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 0.5rem; /* Optional: add rounded corners */
+    border-radius: 0.5rem; 
+    border: 0.4vw solid rgb(8, 64, 83) ;
 }
 
 /* after LTS */
@@ -564,7 +576,9 @@ h2 {
 .learnMore {
     font-size: 2.2vw;
     width: 50%;
-    border-radius: 0.8vw;;
+    border-radius: 0.8vw;
+    border: 0 transparent; 
+    border-bottom: 0.2em solid #ccc;
     height: 3.8vw;
 }
 
@@ -716,10 +730,13 @@ h2 {
     width: 30%;
     position: relative;
     left: 35%;
-    font-size: 1.4vw;
+    font-size: 1.8vw;
+    font-family: "Dancing Script", cursive;
     margin-bottom: 2vw;
     border-radius: 0.5rem;
     height: 2.4vw;
+    border: 0 transparent; 
+    border-bottom: 0.2em solid #ccc;
 }
 
 /* Program */
