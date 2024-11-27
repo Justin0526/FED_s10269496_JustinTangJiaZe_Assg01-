@@ -778,6 +778,29 @@ h2 {
     background-color: #f9f9f9; /* Light background color */
     border-radius: 0.8vw; /* Optional: rounded corners */
 }
+.Trainpic{
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    align-items: center; /* Align text in the center of the image */
+    height: auto;
+    margin: 0 auto; /* Center the container horizontally on the page */
+    position: relative;
+}
+.Trainpic img{
+    max-width: 80%;
+    height: auto;
+    width: 30%;
+    filter: brightness(0.5);
+    border-radius: 1vw;
+    margin-bottom: 1.5vw;
+}
+
+.Trainpic h3{
+    position: absolute; 
+    color: rgb(253, 253, 253); /* Set the text color */
+    font-size: 1.5vw; /* Adjust font size as needed */
+    font-weight: bold; /* Bold the text */
+}
 
 /* screen resize*/
 @media (max-width: 576px){
