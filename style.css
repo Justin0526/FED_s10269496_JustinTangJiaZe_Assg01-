@@ -688,7 +688,7 @@ h2 {
     }
 }
 
-.prgPage {
+.prgPage1 {
     display: flex;
     align-items: center; /* Vertically center the items */
     justify-content: space-between; /* Space out the image and text */
@@ -699,12 +699,12 @@ h2 {
 }
 
 /* Container for the image and heading */
-.Children {
+.row1 {
     position: relative; /* For positioning the h3 over the image */
     width: 20%; /* Adjust the width of the image container */
 }
 
-.Children img {
+.row1 img {
     width: 100%; /* Make image fill its parent container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 1vw; /* Optional: rounded corners for the image */
@@ -712,20 +712,20 @@ h2 {
 }
 
 /* Heading (h3) overlapping the image */
-.Children h3 {
+.row1 h3 {
     position: absolute;
     top: 50%; /* Position vertically in the center */
     left: 50%; /* Position horizontally in the center */
     transform: translate(-50%, -50%); /* Offset to truly center it */
     white-space: nowrap;
     color: white; /* Set the text color */
-    font-size: 2rem; /* Adjust font size as needed */
+    font-size: 1.2vw; /* Adjust font size as needed */
     font-weight: bold; /* Bold the text */
     z-index: 1; /* Ensure the heading is on top of the image */
 }
 
 /* Section for the text description (about) */
-.kidsAbout {
+.About1 {
     flex: 1; /* Take up the remaining space */
     padding: 1vw; /* Padding for the text */
     font-size: 1vw; /* Adjust the font size */
@@ -735,7 +735,7 @@ h2 {
 }
 
 /* adult */ 
-.prgPage1 {
+.prgPage2 {
     display: flex;
     align-items: center; /* Vertically center the items */
     justify-content: space-between; /* Space out the image and text */
@@ -744,12 +744,12 @@ h2 {
     margin: 0 auto; /* Center the container horizontally */
     margin-bottom: 2vw;
 }
-.Adt {
+.row2 {
     position: relative; /* For positioning the h3 over the image */
     width: 20%; /* Adjust the width of the image container */
 }
 
-.Adt img {
+.row2 img {
     width: 100%; /* Make image fill its parent container */
     height: auto; /* Maintain aspect ratio */
     border-radius: 1vw; /* Optional: rounded corners for the image */
@@ -757,20 +757,20 @@ h2 {
 }
 
 /* Heading (h3) overlapping the image */
-.Adt a h3 {
+.row2 a h3 {
     position: absolute;
     top: 50%; /* Position vertically in the center */
     left: 50%; /* Position horizontally in the center */
     transform: translate(-50%, -50%); /* Offset to truly center it */
     white-space: nowrap;
     color: white; /* Set the text color */
-    font-size: 2rem; /* Adjust font size as needed */
+    font-size: 1.2vw; /* Adjust font size as needed */
     font-weight: bold; /* Bold the text */
     z-index: 1; /* Ensure the heading is on top of the image */
 }
 
 /* Section for the text description (about) */
-.AdtAbout {
+.About2 {
     flex: 1; /* Take up the remaining space */
     padding: 1vw; /* Padding for the text */
     font-size: 1vw; /* Adjust the font size */
@@ -1038,17 +1038,21 @@ h2 {
     }
 
     /*program page */
-    .prgPage {
+    .prgPage1, .prgPage2 {
         flex-direction: column; /* Stack the items vertically */
         align-items: center; /* Center align the content */
     }
 
-    .Children {
+    .row1, .row2 {
         width: 80%; /* Full width for the image section */
 
     }
 
-    .kidsAbout {
+    .row1 a h3, .row2 a h3{
+        font-size: 4vw;
+    }
+
+    .About1, .About2 {
         width: 80%; /* Full width for the text section */
         margin-top: 2vw; /* Add some spacing between the image and text */
         font-size: 3vw;
