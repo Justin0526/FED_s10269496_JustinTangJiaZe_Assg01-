@@ -552,6 +552,71 @@ h2 {
     margin-bottom: 2vw; /* Space between heading and checkboxes */
   }
 
+  /* Preferred Day */
+.Time{
+    width:80%;
+    margin: 0 auto;
+    position: relative;
+    left: 8%;
+    max-width: 80%;
+    margin-bottom: 2vw;
+}
+.Time .CheckboxTime {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap onto new rows */
+    gap: 3.8vw; /* space between items */
+    justify-content: center;
+  }
+  
+.Time .CheckboxTime label {
+    flex: 1 1 30%; /* Each label takes 30% of the container width */
+    box-sizing: border-box; /* Ensures padding/border doesn’t affect the width */
+    margin-bottom: 0.5vw;; /* space between rows */
+    font-size: 1.8vw;
+    display: flex; /* Ensure that the checkbox and label align properly */
+    align-items: center; /* Vertically align the checkbox with the label */
+  }
+
+.Time .CheckboxTime input{
+    width: 3vw;
+    height: 3vw;
+    margin-right: 2vw;
+}
+  
+.Time h2 {
+    margin-bottom: 2vw; /* Space between heading and checkboxes */
+  }
+
+/* feedback */
+.feedback{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    left: 8%;
+    max-width: 80%;
+    margin-bottom: 2vw;
+}
+
+.feedback  h2{
+    font-size: 2.5vw;
+}
+
+.feedback input{
+    width: 100%;
+    max-width: 80%;
+    height: 14vw;
+    border-radius: 1rem;
+    font-size: 1.5vw;
+    padding-bottom: 14%;
+    padding-left: 1.5%;
+}
+
+.submit{
+    width: 30%;
+    position: relative;
+    left: 35%;
+}
+
 
 /* screen resize*/
 @media (max-width: 576px){
@@ -770,6 +835,44 @@ h2 {
 
     .Day .CheckboxDay label{
         font-size: 3vw;
+    }
+
+    /* Perferred Time */
+    .Time{
+        width:90%;
+        left: 3%;
+    }
+
+    .Time h2{
+        font-size: 4.5vw;
+    }
+
+    .Time .CheckboxTime label{
+        font-size: 3vw;
+    }
+
+    /* feedback */
+
+    .feedback{
+        width: 90%;
+        max-width: 90%;
+    }
+    
+    .feedback  h2{
+        font-size: 2.5vw;
+        margin-bottom:0;
+    }
+    
+    .feedback input{
+        height: 14vw;
+        font-size: 1.8vw;
+        padding-bottom: 10%;
+    }
+
+    .submit{
+        width: 40%;
+        position: relative;
+        left: 27%;
     }
 }
 
