@@ -25,6 +25,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+
 // Back to Top Button 
 // Get the button
 let mybutton = document.getElementById("myBtn");
