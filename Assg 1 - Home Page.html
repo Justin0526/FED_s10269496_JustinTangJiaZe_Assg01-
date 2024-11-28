@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <link rel = "stylesheet" href = "style.css" type="text/css">
         <script src="https://kit.fontawesome.com/cccb8442f6.js" crossorigin="anonymous"></script>
+        <srcipt src="script.js" defer></srcipt>
         <title>Z Swim</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -65,29 +66,39 @@
             </div>
         </nav>
 
-        <div>
-            <section class="img">
-                <ul> 
-                    <div class="carousel">
-                        <button class="previous">&#10502;</button>
-                        <button class="next">&#x2907;</button>
-                        <li class="slide" data-active> 
-                            <img width="100%" height="auto" src="Picture\homepage.png" alt="page1">
-                        </li>
-    
-                        <li class="slide"> 
-                            <img width="100%" height="auto" src="Picture\Homepage2.png" alt="page2">
-                        </li>
-    
-                        <li class="slide"> 
-                            <img width="100%" height="auto" src="Picture\Homepage 3.png" alt="page3">
-                        </li>
-                    </div>  
-                </ul>
-               
-                <h1> Welcome To Z Swim </h1>
-            </section>
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img width="100%" src="Picture\Homepage.png">
+              <div class="text">Caption Text</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img width="100%" src="Picture\Homepage2.png">
+              <div class="text">Caption Two</div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img width="100%" src="Picture\Homepage3.png">
+              <div class="text">Caption Three</div>
+            </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+            
         </div>
+        <br>
+        
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span> 
+            <span class="dot" onclick="currentSlide(2)"></span> 
+            <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>   
+        <h1> Welcome To Z Swim </h1>
+
 
         <div>
             <section class = "video"> 
