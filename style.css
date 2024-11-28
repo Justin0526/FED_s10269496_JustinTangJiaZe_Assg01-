@@ -456,6 +456,7 @@ align-items: center;
     height: 3vw;
     border: 0 transparent; 
     border-bottom: 0.2em solid #ccc;
+    padding-left: 2%;
 }
 
 .contact .map-table{
@@ -471,6 +472,8 @@ align-items: center;
     height: 2.4vw;
     border: 0 transparent; 
     border-bottom: 0.2em solid #ccc;
+    width: 60%;
+    margin-left: 55%;
 }
 
 button:hover,
@@ -1092,6 +1095,17 @@ h2 {
         width: 50vw;
         height: 11vw;
         font-size: 3vw;
+    }
+
+    .contact h2{
+        font-size: 6vw;
+    }
+
+    .submit{
+        font-size: 4.5vw;
+        width: 60%;
+        height: auto;
+        margin-left: 55%;
     }
 
 
