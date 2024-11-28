@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
@@ -33,10 +33,10 @@ body{
     white-space: nowrap;
     flex-grow: 1;
     overflow-x: visible;
-}
+} */
 
 /* Navigation bar */
-.navbar{
+/* .navbar{
     background-color: crimson;
     font-family: calibri;
     padding: 1rem 5%;
@@ -68,10 +68,10 @@ li a{
     margin: 0.5rem;
     padding: 0.5rem;
     display: block;
-}
+} */
 
 /* footer */ 
-.foot{
+/* .foot{
     display: flex;
     flex-wrap: wrap;
     background-color: black;
@@ -166,4 +166,26 @@ li a{
         align-items: center;
         gap: 0.5rem;
     }
+} */
+
+*, *::before, *::after{
+    box-sizing: border-box;
 }
+
+body{
+    margin: 0;
+}
+
+.carousel{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+}
+
+
