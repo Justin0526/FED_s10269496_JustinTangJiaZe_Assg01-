@@ -67,3 +67,32 @@ function updateProgressBar(){
   let progressHeight = (window.pageYOffset / totalHeight) * 100;
   progress.style.height = progressHeight + "%"
 }
+
+
+// Get elements
+let searchIcon = document.getElementById('searchIcon');
+let searchBar = document.getElementById('searchBar');
+let menuIcon = document.getElementById('menuIcon');
+
+// Add click event listener to the search icon
+searchIcon.addEventListener('click', function() {
+    // Toggle visibility of the search bar
+    event.stopPropagation();
+
+    if (searchBar.style.display === "none" || searchBar.style.display === "") {
+        searchBar.style.display = "block";
+        menuIcon.style.display = "none";
+        searchIcon.style.display = "none";
+        searchBar.focus(); // Automatically focus on the search bar
+    } else {
+        searchBar.style.display = "none";
+    }
+});
+
+document.addEventListener('click', function(event){
+  if(!searchBar.contains(event.target) && event.target !==searchIcon){
+    searchBar.style.display = "none";
+    menuIcon.style.display = "block";
+    searchIcon.style.display = "block";
+  }
+})

@@ -151,15 +151,11 @@ p{
 .Header {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: nowrap;
     width: 100%;
     max-width: 100%;
-    flex-shrink: 1;
-
-    a img{
-        max-width: 100%;
-        max-height: 100%;
-    }
+    position:relative;
 
     h1{
         font-size: 3.5vw;
@@ -168,20 +164,29 @@ p{
         color: rgb(13, 95, 150);
         text-align: center;
         white-space: nowrap;
-        margin-right: 14%;
+        margin-right: 18%;
     }
 
     .menu{
         display: flex;
         margin-right: 2.5%;
         align-items: center;
-        a{
-            margin-right: 10%;
-        }
-        .menu a:last-child {
-            margin-right: 0; /* Removes the margin from the last item */
-        }
+        position: absolute;
+        right: 0;
+
     }
+}
+
+#searchBar {
+    padding: 0.5vw;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 18vw;
+    height: auto;
+    display: none; /* Hidden initially */
+    transition: all 0.3s ease;
+    margin-left: -2vw; /* Move search bar to the left */
 }
 
 /* Navigation bar */
@@ -221,6 +226,7 @@ p{
         font-family: "Dancing Script", cursive;;
     }
 }
+
 
 /* footer */ 
 .foot{
@@ -1098,14 +1104,6 @@ h2 {
 
     .Header h1{
         display: none;
-    }
-
-    .Header .menu{
-        display: flex;
-        margin-right: 2.5%;
-        a{
-            margin-right: 10%;
-        }
     }
 
     .navbar {
