@@ -36,14 +36,19 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-// Back to Top Button 
-// Get the button
+
+let progress = document.getElementById('progressbar');
+let totalHeight = document.body.scrollHeight - window.innerHeight;
+
 let mybutton = document.getElementById("myBtn");
 
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {
+  scrollFunction();
+  updateProgressBar();};
 
+// Back to Top Button 
 function scrollFunction() {
+  // When the user scrolls down 20px from the top of the document, show the button
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
   } else {
@@ -55,4 +60,10 @@ function scrollFunction() {
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
+}
+
+//progress bar
+function updateProgressBar(){
+  let progressHeight = (window.pageYOffset / totalHeight) * 100;
+  progress.style.height = progressHeight + "%"
 }
