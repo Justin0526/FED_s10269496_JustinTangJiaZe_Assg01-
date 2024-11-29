@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -76,11 +77,11 @@ body{
     font-style: normal;
   }
 
-  .lilita-one-regular {
+.lilita-one-regular {
     font-family: "Lilita One", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
 h2{
     font-family: "Archivo Black", sans-serif;
@@ -850,7 +851,7 @@ h2 {
     margin-bottom: 2vw;
 }
 
-.feedback  h2{
+.feedback h2{
     font-size: 2.5vw;
 }
 
@@ -1064,8 +1065,9 @@ h2 {
     }
 
     /* footer */ 
-    .footTitle{
-        font-size: 6vw;
+    .foot h2{
+        font-size: 4vw;
+        padding-top: 5%;
     }
 
     .infoList a{
@@ -1191,8 +1193,18 @@ h2 {
         font-size: 5vw;
     }
 
-    .left-section .why-box p {
-        font-size: 3.8vw;
+    .left-section .why-box  {
+        h2{
+            font-size: 6vw;
+            text-align: center;
+        }
+        p{
+            margin-bottom: 1rem;
+            font-size: 3.8vw;
+            font-family: "Sour Gummy", sans-serif;
+            text-align: center;
+            width: auto;
+        }
     }
 
     .right-section {
@@ -1207,7 +1219,7 @@ h2 {
     /* After lts */
     .afterLts h2{
         margin-top: 2vw;
-        font-size: 4.2vw;
+        font-size: 5vw;
     }
 
     .Teams{
@@ -1288,28 +1300,29 @@ h2 {
     }
 
     /* feedback */
-
-    .feedback{
+    .feedback {
         width: 90%;
-        max-width: 90%;
+        left: 2%;
+        margin: 0 auto;
+        margin-bottom: 2%;
     }
-    
-    .feedback  h2{
-        font-size: 2.5vw;
-        margin-bottom:0;
+    .feedback h2{
+        font-size: 4.5vw;
+        margin-bottom: 2%;
     }
     
     .feedback input{
         height: 14vw;
-        font-size: 1.8vw;
-        padding-bottom: 10%;
+        border-radius: 1rem;
+        font-size: 2.5vw;
+        padding-top: 2%;
+        margin: 0 auto;  /* Centers the input field */
+        display: block;
     }
-
+    
     .submitSignUp{
-        width: 40%;
-        position: relative;
-        left: 27%;
-        font-size: 2vw;
+        font-size: 4vw;
+        height: auto;
     }
 
     /*program page */
@@ -1353,7 +1366,6 @@ h2 {
       .Trainpic a h3 {
         font-size: 4vw;
       }
-
 }
 
 @media (max-width: 920px){
