@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function() {
   if (document.body.id !== "homePage") {
     console.log("Slideshow script skipped for this page.");
@@ -9,11 +8,11 @@ document.addEventListener("DOMContentLoaded", function() {
   let slideIndex = 1;
   showSlides(slideIndex);
 
-  function plusSlides(n) {
+  window.plusSlides = function(n) {
     showSlides(slideIndex += n);
   }
 
-  function currentSlide(n) {
+  window.currentSlide = function(n) {
     showSlides(slideIndex = n);
   }
 
@@ -34,8 +33,6 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
 });
-
-
 
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
@@ -96,3 +93,18 @@ document.addEventListener('click', function(event){
     searchIcon.style.display = "block";
   }
 })
+
+let body = document.body;
+
+// When the user clicks the menu icon, toggle the visibility of the navbar
+menuIcon.addEventListener('click', function(event) {
+    event.stopPropagation(); // Prevent the click event from propagating to the document
+    body.classList.toggle('menu-open'); // Toggle the "menu-open" class to show/hide the menu
+});
+
+// Close the menu if the user clicks anywhere outside the menu or menu icon
+document.addEventListener('click', function(event) {
+    if (!document.querySelector('.menuBtn').contains(event.target) && !menuIcon.contains(event.target)) {
+        body.classList.remove('menu-open'); // Close the menu if the click is outside the menu
+    }
+});

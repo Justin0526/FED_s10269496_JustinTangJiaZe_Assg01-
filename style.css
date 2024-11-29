@@ -189,6 +189,52 @@ p{
     margin-left: -2vw; /* Move search bar to the left */
 }
 
+/* Position the menu off-screen to the right initially */
+.menuBtn {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Start off-screen */
+    width: 250px;
+    height: 100%;
+    transition: right 0.3s ease-in-out;
+    z-index: 1000; /* Ensure it's on top of other content */
+}
+
+.menuList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.menuList li {
+    margin: 20px 0;
+}
+
+.menuList li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    padding: 10px;
+}
+
+.menuList li a:hover {
+    background-color: #575757;
+}
+/* Optional: Close menu when clicking outside */
+body.menu-open .navbar {
+    right: 0; /* Slide in when menu is open */
+}
+
+/* Hide the search bar when the menu is visible */
+body.menu-open #searchBar {
+    display: none; /* Hide the search bar when menu is open */
+}
+/* Style for the menu icon */
+#menuIcon {
+    cursor: pointer;
+}
 /* Navigation bar */
 .navbar{
     background-color: crimson;
@@ -1106,6 +1152,12 @@ h2 {
         display: none;
     }
 
+    #searchBar {
+        width: 50vw;
+        height: auto;
+    }
+
+
     .navbar {
         height: 2rem;
         display: flex;
@@ -1136,7 +1188,7 @@ h2 {
 
     /* Home Page*/ 
     #welcome{
-        top: 20%;
+        top: 30%;
     }
 
     .video {
