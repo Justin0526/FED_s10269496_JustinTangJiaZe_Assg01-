@@ -250,6 +250,10 @@ img {
     filter: brightness(0.5);
 }
 
+img:hover{
+    transform:scale(1.1);
+}
+
 /* Slideshow container */
 .slideshow-container {
   max-width:100%;
@@ -258,7 +262,9 @@ img {
   margin: auto;
 
 }
-
+.slideshow-container .mySlides img{
+    transform: scale(1);
+}
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -428,8 +434,8 @@ img {
         border-radius: 1rem;
         width: 100%;
     }
-}
 
+}
 
 /* Contact us */
 .contact{
@@ -517,6 +523,7 @@ input[type="submit"]:hover{
     
     img{
         filter: brightness(0.5);
+        transform: scale(1);
     }
 
     .Lts{
@@ -865,6 +872,7 @@ h2 {
     
     img{
         filter: brightness(0.5);
+        transform: scale(1);
     }
 
     h2{
