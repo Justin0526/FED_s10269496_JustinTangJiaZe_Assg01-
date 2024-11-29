@@ -188,17 +188,23 @@ p{
     transition: all 0.3s ease;
     margin-left: -2vw; /* Move search bar to the left */
 }
+/* Style for when the menu is open */
+body.menu-open .menuBtn {
+    right: 0; /* Slide in the menu */
+}
 
-/* Position the menu off-screen to the right initially */
+/* Optional: Additional styling to enhance the menu appearance */
 .menuBtn {
     position: fixed;
     top: 0;
-    right: -250px; /* Start off-screen */
-    width: 250px;
+    right: -30vw; /* Start off-screen */
+    width: 30vw;
     height: 100%;
+    background-color: rgba(90, 84, 84, 0.9); /* Background for the menu */
     transition: right 0.3s ease-in-out;
-    z-index: 1000; /* Ensure it's on top of other content */
+    z-index: 1000;
 }
+
 
 .menuList {
     list-style-type: none;
@@ -1432,6 +1438,11 @@ h2 {
     }
 
     /*program page */
+    .prgImg{
+        h2{
+            top: 30%;
+        }
+    }
     .prgPage1, .prgPage2 {
         flex-direction: column; /* Stack the items vertically */
         align-items: center; /* Center align the content */
