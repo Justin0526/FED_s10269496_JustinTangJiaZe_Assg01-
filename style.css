@@ -1333,6 +1333,27 @@ h2 {
         font-size: 3vw;
         text-justify: auto;
     }
+
+    .row1 {
+        order: 1; /* Ensure the image comes before text */
+      }
+    
+      .About1 {
+        order: 2; /* Ensure the text appears below the image */
+      }
+    
+      .row2 {
+        order: 1; /* Ensure the image comes before text */
+      }
+    
+      .About2 {
+        order: 2; /* Ensure the text appears below the image */
+      }
+
+      .Trainpic a h3 {
+        font-size: 4vw;
+      }
+
 }
 
 @media (max-width: 920px){
