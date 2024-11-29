@@ -223,27 +223,21 @@ p{
 /* Home page CSS*/ 
 /* body */ 
 /* Image */
-/* h1{
-    position: absolute;
-    top: 40%; 
-    left: 50%;
-    transform: translateX(-50%);
-    color:rgb(137, 235, 235);
-    font-size: 5vw;
-    text-align: center;
-    font-family: "Protest Revolution", sans-serif;
-    white-space: nowrap;
-} */
+
 
 .mySlides {display:none}
-img {vertical-align: middle;}
+img {
+    vertical-align: middle;
+    filter: brightness(0.5);
+}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 80%;
-  height: 200px;
+  max-width:100%;
+  height: auto;
   position: relative;
   margin: auto;
+
 }
 
 /* Next & previous buttons */
@@ -266,8 +260,11 @@ img {vertical-align: middle;}
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  padding-right: 4vw;
 }
-
+.prev{
+    padding-left: 4vw;
+}
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
@@ -321,7 +318,17 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
-
+#welcome{
+    position: absolute;
+    top: 40%; 
+    left: 50%;
+    transform: translateX(-50%);
+    color:rgb(137, 235, 235);
+    font-size: 5vw;
+    text-align: center;
+    font-family: "Protest Revolution", sans-serif;
+    white-space: nowrap;
+}
 
 
 
@@ -387,6 +394,7 @@ img {vertical-align: middle;}
         position: absolute;
         z-index: 1000;
         color: white;
+        top: 40%;
 
         display: flex;
         align-items:flex-start;
@@ -461,6 +469,7 @@ align-items: center;
 
 .contact .map-table{
     margin-bottom: 3vw;
+    border:#c30404;
 }
 
 .submit{
@@ -1031,11 +1040,8 @@ h2 {
     }
 
     /* Home Page*/ 
-    .img{
-        h1{
-            font-size: 2w;
-            top: 25%;
-        }
+    #welcome{
+        top: 20%;
     }
 
     .video {
