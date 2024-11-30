@@ -18,11 +18,11 @@
         <div id="scrollPath"></div>
         
         <article class = 'Header'>
-            <a href = '#' class="logoPic"><img width= "60%" height = "auto" src = "Picture\Swimlogo.png" title = "logo" alt ="Swimming"></a>
+            <a href = '#' class="logoPic"><img src = "Picture\Swimlogo.png" title = "logo" alt ="Swimming"></a>
             <h1> Z-Swim ~ Target of Champions </h1> 
             <section class="menu">
-                <a href="#" id="menuIcon"> <img src="Picture\MenuBar.png"> </a>
-                <a href="#" id="searchIcon"> <img src="Picture\SearchIcon.png"> </a>
+                <a href="#" id="menuIcon"> <img src="Picture\MenuBar.png" alt="MenuImage"> </a>
+                <a href="#" id="searchIcon"> <img src="Picture\SearchIcon.png" alt="SearchImage"> </a>
                 <input type="text" id="searchBar" placeholder="Search...">
             </section>
         </article>
@@ -41,7 +41,7 @@
         </nav>
 
         <nav class = "navbar">
-            <div class = "navdiv">
+            <article class = "narticle">
                 <ul class = "navlist">
                     <li><a href = 'http://127.0.0.1:5501/index.html'> Home </a></li>
                     <li><a href = '#'> About us </a></li>
@@ -51,11 +51,11 @@
                     <li><a href = '#'> Membership </a></li>
                     <li><a href = '#'> Contact us </a></li>
                 </ul>
-            </div>
+            </article>
         </nav>
 
         <div class="kidsImg">
-            <img width="100%" height=auto src="Picture\LTSkidspage.png">
+            <img  src="Picture\LTSkidspage.png" alt="KidsPage Image">
             <section class="Lts">
                 <h2> Learn to Swim Kids </h2>
                 <button class="register"> Register now </button>
@@ -63,7 +63,7 @@
         </div>
 
         <main class="kidsContent">
-            <main class="main-sections">
+            <article class="main-sections">
                 <section class="left-section">
                     <section>
                         <div id="age"> <h3> Age: 4 - 12 years old </h3> </div>
@@ -94,17 +94,17 @@
                 </section>
 
                 <section class="right-section">
-                    <img width="100%" src="Picture\LTS kids sidepic.jpg">
+                    <img src="Picture\LTS kids sidepic.jpg" alt="kids SideImage">
                 </section>
-            </main>
+            </article>
         </main>
 
-        <main class="afterLts">
+        <article class="afterLts">
             <h2> So... Where do you go after Learn To Swim? </h2>
             <article class="Teams">
 
                 <section class="dTeam">
-                    <img width="20%" src="Picture\Development.png">
+                    <img src="Picture\Development.png" alt="developPic">
                     <a href="#"> <h3> Development </h3> </a>
                     <p>
                         In the Development Team, we will be refining student swimming techniques
@@ -114,7 +114,7 @@
                 </section>
 
                 <section class="inTeam">
-                    <img width="20%" src="Picture\Intermediate.png">
+                    <img src="Picture\Intermediate.png" alt="intermediatePic">
                     <a href="#"> <h3> Intermediate </h3> </a>
                     <p>
                         In the Intermediate Team, we will be teaching the students how to train further
@@ -124,7 +124,7 @@
                 </section>
 
                 <section class="aTeam">
-                    <img width="20%" src="Picture\Advanced1.png">
+                    <img src="Picture\Advanced1.png" alt="advancedPic">
                     <a href="#"> <h3> Advanced </h3> </a>
                     <p>
                         In the Advanced Team, this place is where most of our competitive swimmers are.
@@ -135,30 +135,30 @@
             </article>
 
             <button class="learnMore">Learn More About Training</button>
-        </main>
+        </article>
 
-        <main class="signup">
-            <main class="signUpForm">
+        <article class="signup">
+            <article class="signUpForm">
                 <form action = "#" method="GET">
                     <h2> Sign up for a free class </h2>
-                    <article class="from-content">
+                    <section class="from-content">
                         <section class="name">
-                            <label for="text"> Name  </label>
+                            <label for="name"> Name  </label>
                             <input type="text" placeholder="Enter your name" name="username" id="name" required>
                         </section>
     
                         <section class="phoneNo">
-                            <label for="text"> Phone Number </label>
+                            <label for="phoneNum"> Phone Number </label>
                             <input type="text" placeholder="Enter Phone Number" name="phone" id="phoneNum" required>
                         </section>
         
                         <section class="email">
-                            <label for="text"> Email </label>
+                            <label for="email"> Email </label>
                             <input type="text" placeholder="Enter Email Address" name="emailAddress" id="email" required>
                         </section>
     
                         <section class="recommend">
-                            <label for="text"> How did you know us? </label>
+                            <label for="who"> How did you know us? </label>
                             <select name="who" id="who">
                                 <option value="friend"> Friends </option>
                                 <option value="family"> Famliy </option>
@@ -169,13 +169,13 @@
                                 <option value="others"> Others </option>
                             </select>
                         </section>
-                    </article>
+                    </section>
                 </form>
-            </main>
+            </article>
     
-            <main class="Day">
+            <article class="Day">
                 <h2> Preferred Day (Multiple Choice) </h2>
-                <article class="CheckboxDay">
+                <section class="CheckboxDay">
                     <label>
                         <input type="checkbox" name="tick" value="tick1">
                         Monday
@@ -210,12 +210,12 @@
                         <input type="checkbox" name="tick" value="tick7">
                         Sunday 
                     </label>
-                </article>
-            </main>
+                </section>
+            </article>
     
-            <main class="Time">
+            <article class="Time">
                 <h2> Preferred Time (Multiple Choice) </h2>
-                <div class="CheckboxTime">
+                <section class="CheckboxTime">
                     <label>
                         <input type="checkbox" name="tick" value="tick1">
                         8:30 - 9:30
@@ -250,27 +250,27 @@
                         <input type="checkbox" name="tick" value="tick7">
                         19:00 - 20:00
                     </label>
-                </div>
-            </main>
+                </section>
+            </article>
     
-            <main class="feedback">
+            <article class="feedback">
                 <h2> Leave us a Message! </h2>
                 <input type="text" placeholder="Enter your message here" name="messages" id="message">
-            </main>
+            </article>
     
             <button class="submitSignUp"> Submit </button>
-        </main>
+        </article>
 
         <footer class = "foot"> 
             <section class = infoDiv>
                 <h2> Information </h2> 
                 <ul class = "infoList">
-                    <article  class ="row" >
+                    <div  class ="row" >
                         <li><a href = '#'> FAQ </a></li>
                         <li><a href = '#'> Terms & Condition </a></li>
                         <li><a href = '#'> Data Protection </a></li>
-                    </article>
-                    <article class="row">
+                    </div>
+                    <div class="row">
                         <li><a href = '#'> Refer a Friend</a></li>
                         <li><a href = '#'> Contact Us </a></li>
                         <li class = "socialMedia">
@@ -280,7 +280,7 @@
                             <a href = '#'> <i class="fa-solid fa-envelope"> </i></a>
                             <a href = '#'> <i class="fa-solid fa-phone"></i> </a>
                         </li>
-                    </article>
+                    </div>
                 </ul>
             </section>
         </footer>
