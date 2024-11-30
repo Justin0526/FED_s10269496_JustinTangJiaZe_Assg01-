@@ -54,6 +54,7 @@ This website is designed to include all ages who are interested in learning to s
 <li> Quick Link to Home page when click on the 'Home' on the navigation bar or 'Home' after clicking the menu bar </li>
 <li> Quick Link to Program page when click on the 'Program' on the navigation bar or 'Program' after clicking the menu bar </li>
 <li> Register button becomes larger upon hover </li>
+<li> When clicked on the registration button, it scrolls down to the registration form </li>
 <li> Clear description of the program </li>
 <li> Age range for the program </li>
 <li> Price package for the program </li>
@@ -143,19 +144,113 @@ This website is designed to include all ages who are interested in learning to s
 
 <h2> Testing </h2>
 <ol>
-<li> Contact form:
+    <li> Contact form:
+        <ol>
+        <li> Go to the bottom of the home page or the Learn To Swim Kids page where the registration form is </li>
+        <li> Try to submit the empty form and verify that an error message 
+            about the required fields appears
+        </li>
+        <li> Try to submit the form with all inputs and verify that a success message appears
+        </li>
+        </ol>
+    </li>
+    <li> Search bar (not implemented):
+        <ol>
+        <li>
+        As the user, I want to search for a particular keyword in the website.
+        </li>
+        <li> 
+        Try to search with an empty value and an error message about the required fields appears.
+        </li>
+        <li> 
+        Try to enter an invalid value and a invalid message appears.
+        </li>
+        <li> 
+        Try to submit the form with all inputs valid and it will link to a "search results" page.
+        </li>
+        </ol>
+    </li>
+    <li> Menu icon
+        <ol>
+        <li>
+        As the user, I want to search for a particular page in the website. 
+        </li>
+        <li> 
+        Press the menu bar icon and the menu will appear.
+        </li>
+        <li> 
+        Press on the options provided and the user will be brought to the desired page. For now only Programs and Homepage are available.
+        </li>
+        <li> 
+        Click anywhere outside the menu and it will disappear.
+        </li>
+        </ol>
+    </li>
+    <li> Footer Links (Not Implemented)
     <ol>
-    <li> Go to the bottom of the home page or the Learn To Swim Kids page where the registration form is </li>
-    <li> Try to submit the empty form and verify that an error message 
-         about the required fields appears
+        <li>
+        As the user, I want to know more about the swimming academy by maybe clicking on the FAQ on the footer.
+        </li>
+        <li> 
+        Press on the FAQ link and it will bring the user to the "FAQ" page.
+        </li>
+        <li> 
+        It should work on other information or social media icon as well. But now it is not implemented.
+        </li>
+        </ol>
     </li>
-    <li> Try to submit the form with all inputs and verify that a success message appears
+    <li> Responsive Layout
+    <ol>
+        <li>
+        As the user, I want the webpage to adapt to my screensize.
+        </li>
+        <li> 
+        Change the screen size to test different formats. For example, open it on your mobile device and on your monitor.
+        </li>
+        <li> 
+        Please give feedback. Thanks!
+        </li>
+        </ol>
     </li>
-
-    </ol>
+    <li> When the screen size is smaller than 980px, the title at the top of the webpage "Target of Champions" disappears other than that the layout remains the same, just everything becomes slightly smaller compared to larger than 980px.
+    </li>
+    <li> When the screen size is smaller than 576px, there is a slight change in the layout:  
+        <ol>
+        <li> For the Home Page: The tile "Target of Champions" also disappear. The layout is slightly different. All the programs, picture becomes one picture per row. The contact form also changes a little bit. The map is now below the submit button. The font size is also relatively smaller to the desktop width.
+        </li>
+        <li>
+        For the Learn To Swim kids Page: The changes are same to the Home Page. So the title disappears and the picture becomes one picture per row.The font size is also relatively smaller compared to the desktop width.
+        </li>
+        <li> 
+        For the Program Page: The changes are same to the Home Page. So the title disappears and the picture becomes one picture per row and the content is now below the picture. The font size is also relatively smaller compared to the desktop width.
+        </li>
+        </ol>  
+    </li>
+</ol>
+<h3> Interesting bugs or Problems </h3>
+<ol> 
+<li> 
+Sometimes the screen can lag when changing the screen size and not respond in inspector mode, sometimes it will not.
+</li>
+<li>
+The contents overflow and I didn't know why until I found the problem it was because of the margin.
+</li>
+<li>
+The title will overlap the logo, the search and menu icon when the screen size changes.
+</li>
+<li>
+The logo position used to be decided by the length and size of the title, not now anymore.
+</li>
+<li>
+Pictures are of different sizes, so Photoshop was a necessary tool to edit it to the same size. It was also useful in creating the logo.png.
+</li>
+<li>
+A lot of Youtube videos doesn't allow us to use their embeded code.
+</li>
+<li>
+I have tried my best and tried all the possiblities and solved I believe most of them of what I think the website could go wrong. I have also invited others to help my try, if there is still another problem/bug, I'm sincerely sorry and I promise to make improvements after receiving feedback.
 </li>
 </ol>
-
 
 <h2> Credits </h2>
 <h3> Content </h3>
