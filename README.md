@@ -76,8 +76,8 @@ This website is designed to include all ages who are interested in learning to s
 <li> Other features...(Stars in the making) </li>
 </ul>
 
-<h2> Technologies used <h2>
-<h3> Languagess, Frameworks, Libraries, and Tools Used </h3>
+<h2> Technologies used </h2>
+<h3> Languages, Frameworks, Libraries, and Tools Used </h3>
 <ol>
 <li> <a href="https://html.spec.whatwg.org/multipage/"> HTML </a> </li> 
     <ul>
@@ -92,12 +92,12 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://262.ecma-international.org/"> JavaScript </a> </li> 
     <ul>
     <li> Official Site: https://262.ecma-international.org/ </li>
-    <li> Why it was used: Used to add interavtivity and functionality to the website, such as the slideshow, "Brain" </li>
+    <li> Why it was used: Used to add interactivity and functionality to the website, such as the slideshow, "Brain" </li>
     </ul>
 <li> <a href="https://fontawesome.com/"> Font Awesome </a> </li> 
     <ul>
     <li> Official Site: https://fontawesome.com/ </li>
-    <li> Why it was used: Used to include icons such as the social media ones, to imrprove visualisation </li>
+    <li> Why it was used: Used to include icons such as the social media ones, to improve visualisation </li>
     </ul>
 <li><a href="https://fonts.google.com/"> Google Fonts </a> </li> 
     <ul>
@@ -107,7 +107,7 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://necolas.github.io/normalize.css/"> Normalize.css </a> </li> 
     <ul>
     <li> Official Site: https://necolas.github.io/normalize.css/ </li>
-    <li> Why it was used: Used to make browser render all elements more consistently and in line with mordern standards </li>
+    <li> Why it was used: Used to make browser render all elements more consistently and in line with modern standards </li>
     </ul>
 <li> <a href="https://developers.google.com/maps/documentation/embed/get-started?hl=zh-tw"> Google Maps Embed </a> </li> 
     <ul>
@@ -127,7 +127,7 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://www.figma.com/files/team/1393105764447027347/recents-and-sharing?fuid=1393105760185819961"> Figma </a></li> 
     <ul>
     <li> Official Site: https://www.figma.com/files/team/1393105764447027347/recents-and-sharing?fuid=1393105760185819961 </li>
-    <li> Why it was used: Used to create wireframe for the webpage </li>
+    <li> Why it was used: Used to create wireframe of the webpage </li>
     </ul>
 <li> <a href="https://code.visualstudio.com/"> Visual Studio Code </a> </li> 
     <ul>
