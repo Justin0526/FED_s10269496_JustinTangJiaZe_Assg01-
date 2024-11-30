@@ -1,6 +1,24 @@
+
+document.addEventListener("DOMContentLoaded", function(){
+  if (document.body.id === "programPage"){
+    return;
+  }
+  const ProgramURL = document.querySelectorAll(".programLink");
+
+  ProgramURL.forEach(function(programLink){
+    programLink.setAttribute("href","http://127.0.0.1:5501/ProgramPage.html");
+  })
+})
+
 document.addEventListener("DOMContentLoaded", function() {
   if (document.body.id !== "homePage") {
     console.log("Slideshow script skipped for this page.");
+    
+    const HomeURL = document.querySelectorAll(".HomeLink");
+
+    HomeURL.forEach(function(homeLink){
+      homeLink.setAttribute("href", "http://127.0.0.1:5501/index.html");
+    })
     return;
   }
   
@@ -36,6 +54,12 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", function(){
   if (document.body.id !== "LTSkidsPage"){
     console.log("No registration form here!");
+    const KidsURL = document.querySelectorAll(".child");
+
+    KidsURL.forEach(function(kidsLink){
+      kidsLink.setAttribute("href", "http://127.0.0.1:5501/LTSkids.html");
+    })
+
     return;
   }
   function scrollToForm(){
