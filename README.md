@@ -173,9 +173,16 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://compote.slate.com/images/83666164-00ca-424c-95ea-105f4ab8d6df.jpg"> PRG-kids </a>  </li>
 </ol>
 
+<h4> Youtube </h4>
+<a href="https://www.youtube.com/watch?v=Kn7LpJkp2Qs"> Video </a>
+
+<h4> Google Maps </h4>
+<a href="https://www.google.com/maps?ll=1.396295,103.886301&z=16&t=m&hl=en&gl=SG&mapclient=embed&cid=4956629958017548506"> Location </a>
+
+
 <h3> Achknowledgements </h3>
 <p>
-I received inspiration for this project from my ex-swimming academy. A place that I've been since the end of the year since 7 years old. I have learn to swim, trained extensively and even worked as a swimming coach in the swimming academy in Malaysia, Johor, Kluang, until I arrived at Singapore to further my studies. Because The academy being local to the town where I'm from, played a significant role in shaping my skills and passion for swimming. This project is my attempt to test my abilities and build a website with what I've learnt to further promote the swimming academy. 
+I received inspiration for this project from my ex-swimming academy. A place that I've been since the end of the year since 7 years old. I have learn to swim, trained extensively and even worked as a swimming coach in the swimming academy in Malaysia, Johor, until I arrived at Singapore to further my studies. Because The academy being local to the town where I'm from, played a significant role in shaping my skills and passion for swimming. This project is my attempt to test my abilities and build a website with what I've learnt to further promote the swimming academy. 
 </p>
 <em> Ps ~ This is not a website revamp, The academy does not currently have a website, and the name used here is also fictional. 
 </em>
