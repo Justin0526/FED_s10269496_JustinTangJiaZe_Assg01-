@@ -31,33 +31,38 @@ document.addEventListener("DOMContentLoaded", function() {
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   };
-  // Success Message
-  document.getElementById('contactForm').addEventListener('submit', function (event) {
-    // Prevent default form submission
-    event.preventDefault();
-
-    // Show the success modal
-    const modal = document.getElementById('successModal');
-    modal.style.display = 'flex';
-
-    // Optionally reset the form
-    this.reset();
-  });
-
-  // Close the modal when the close button is clicked
-  document.querySelector('.close-button').addEventListener('click', function () {
-      const modal = document.getElementById('successModal');
-      modal.style.display = 'none';
-  });
-
-  // Close the modal if the user clicks outside the modal content
-  window.addEventListener('click', function (event) {
-      const modal = document.getElementById('successModal');
-      if (event.target === modal) {
-          modal.style.display = 'none';
-      }
-  });
+  
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+  if (document.body.id !== "homePage" && document.body.id !== "LTSkidsPage"){
+    console.log("No form in this page");
+    return;
+  }
+  const formId = (document.body.id === "homePage") ? "contactForm" : "RegistrationForm";
+    const form = document.getElementById(formId);
+    const modal = document.getElementById('successModal');
+    const closeButton = document.querySelector('.close-button');
+
+    // Handle form submission
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();  // Prevent form from submitting normally
+        modal.style.display = 'flex';  // Show the success modal
+        this.reset();  // Optionally reset the form
+    });
+
+    // Close the modal when the close button is clicked
+    closeButton.addEventListener('click', function () {
+        modal.style.display = 'none';
+    });
+
+    // Close the modal if the user clicks outside the modal content
+    window.addEventListener('click', function (event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+})
 
 
 let progress = document.getElementById('progressbar');
