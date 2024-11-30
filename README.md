@@ -142,6 +142,20 @@ This website is designed to include all ages who are interested in learning to s
 </ol>
 
 <h2> Testing </h2>
+<ol>
+<li> Contact form:
+    <ol>
+    <li> Go to the bottom of the home page or the Learn To Swim Kids page where the registration form is </li>
+    <li> Try to submit the empty form and verify that an error message 
+         about the required fields appears
+    </li>
+    <li> Try to submit the form with all inputs and verify that a success message appears
+    </li>
+
+    </ol>
+</li>
+</ol>
+
 
 <h2> Credits </h2>
 <h3> Content </h3>

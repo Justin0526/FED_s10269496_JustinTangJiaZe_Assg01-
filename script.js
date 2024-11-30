@@ -30,9 +30,35 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-  }
+  };
+  // Success Message
+  document.getElementById('contactForm').addEventListener('submit', function (event) {
+    // Prevent default form submission
+    event.preventDefault();
 
+    // Show the success modal
+    const modal = document.getElementById('successModal');
+    modal.style.display = 'flex';
+
+    // Optionally reset the form
+    this.reset();
+  });
+
+  // Close the modal when the close button is clicked
+  document.querySelector('.close-button').addEventListener('click', function () {
+      const modal = document.getElementById('successModal');
+      modal.style.display = 'none';
+  });
+
+  // Close the modal if the user clicks outside the modal content
+  window.addEventListener('click', function (event) {
+      const modal = document.getElementById('successModal');
+      if (event.target === modal) {
+          modal.style.display = 'none';
+      }
+  });
 });
+
 
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight - window.innerHeight;
