@@ -33,6 +33,26 @@ document.addEventListener("DOMContentLoaded", function() {
   };
   
 });
+document.addEventListener("DOMContentLoaded", function(){
+  if (document.body.id !== "LTSkidsPage"){
+    console.log("No registration form here!");
+    return;
+  }
+  function scrollToForm(){
+    //Get the element with the id 'signupForm'
+    const formSection = document.getElementById('SignUpForms');
+
+    // Scroll to the form section smoothly
+    formSection.scrollIntoView({behavior: 'smooth'});
+  }
+
+  // add event listener
+  const registerButton = document.querySelector(".register");
+
+  if (registerButton){
+    registerButton.addEventListener("click", scrollToForm);
+  }
+})
 
 document.addEventListener("DOMContentLoaded", function(){
   if (document.body.id !== "homePage" && document.body.id !== "LTSkidsPage"){
