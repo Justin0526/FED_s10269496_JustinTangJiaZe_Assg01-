@@ -24,3 +24,47 @@ This website is designed to include all ages who are interested in learning to s
 <b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
 
 <b>>Mobile Wireframe</b>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
+
+<h2> Features </h2>
+<h3> Existing Features </h3>
+<ol>
+<li> Menu button that pops up the menu </li>
+<li> Search button that allows the user to type </li>
+<li> A smooth transition when clicked on the "back to top" button when the user scrolls down on the bottom right </li>
+<li> A cool progress bar on the right hand side </li>
+<li> Images will enlarge when hovered over <li>
+<li> Additional information box at the bottom of the page </li>
+</ol>
+
+<h4> Home Page </h4>
+<ol>
+<li> All the features in Existing Features </li>
+<li> Quick overview and introduction of the swimming academy </li>
+<li> Quick Link to Program page when click on the 'Program' on the navigation bar or 'Program' after clicking the menu bar </li>
+<li> Quick Link to Learn to Swim Kids Page when click on the 'Learn to Swim' text or picture </li>
+<li> A slideshow for the homepage picture on the top </li>
+<li> A video to help users better understand us </li>
+<li> Google maps to show our location </li>
+<li> A form that requires submission before pressing the submit button. </li>
+</ol>
+
+<h4> Learn to Swim Kids Page </h4>
+<ol>
+<li> All the features in Existing Features </li>
+<li> Quick Link to Home page when click on the 'Home' on the navigation bar or 'Home' after clicking the menu bar </li>
+<li> Quick Link to Program page when click on the 'Program' on the navigation bar or 'Program' after clicking the menu bar </li>
+<li> Register button becomes larger upon hover </li>
+<li> Clear description of the program </li>
+<li> Age range for the program </li>
+<li> Price package for the program </li>
+<li> Clear pathway planned after the program </li>
+<li> Registration up form to sign up for the program </li>
+</ol>
+
+<h4> Program Page </h4>
+<ol>
+<li> All the features in Existing Features </li>
+<li> Clear description of all the programs provided </li>
+<li> Quick Link to Home page when click on the 'Home' on the navigation bar or 'Home' after clicking the menu bar </li>
+<li> Quick Link to Learn to Swim Kids Page when click on the 'Learn to Swim' text or picture </li>
+</ol>
