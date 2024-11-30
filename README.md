@@ -68,3 +68,70 @@ This website is designed to include all ages who are interested in learning to s
 <li> Quick Link to Home page when click on the 'Home' on the navigation bar or 'Home' after clicking the menu bar </li>
 <li> Quick Link to Learn to Swim Kids Page when click on the 'Learn to Swim' text or picture </li>
 </ol>
+
+<h3> Features Left to Implement </h3>
+<ul>
+<li> Link for other pages on the navigation bar and the programs </li>
+<li> Links for other pages at the bottom (i.e social media icons) </li>
+<li> Other features...(Stars in the making) </li>
+</ul>
+
+<h2> Technologies used <h2>
+<h3> Languagess, Frameworks, Libraries, and Tools Used </h3>
+<ol>
+<li> <a href="https://html.spec.whatwg.org/multipage/"> HTML </a> </li> 
+    <ul>
+    <li> Official Site: https://html.spec.whatwg.org/multipage/ </li>
+    <li> Why it was used: Used to structure the content and elements of the website, "Bones" </li>
+    </ul>
+<li> <a href="https://www.w3.org/Style/CSS/Overview.en.html"> CSS(Cascading Style Sheets) </a> </li> 
+    <ul>
+    <li> Official Site: https://www.w3.org/Style/CSS/Overview.en.html </li>
+    <li> Why it was used: Used to style the website, responsiveness across different screen size, "Skin" </li>
+    </ul>
+<li> <a href="https://262.ecma-international.org/"> JavaScript </a> </li> 
+    <ul>
+    <li> Official Site: https://262.ecma-international.org/ </li>
+    <li> Why it was used: Used to add interavtivity and functionality to the website, such as the slideshow, "Brain" </li>
+    </ul>
+<li> <a href="https://fontawesome.com/"> Font Awesome </a> </li> 
+    <ul>
+    <li> Official Site: https://fontawesome.com/ </li>
+    <li> Why it was used: Used to include icons such as the social media ones, to imrprove visualisation </li>
+    </ul>
+<li><a href="https://fonts.google.com/"> Google Fonts </a> </li> 
+    <ul>
+    <li> Official Site: https://fonts.google.com/ </li>
+    <li> Why it was used: Used to enhance typography by a variety of fonts that improves aesthetic appeal </li>
+    </ul>
+<li> <a href="https://necolas.github.io/normalize.css/"> Normalize.css </a> </li> 
+    <ul>
+    <li> Official Site: https://necolas.github.io/normalize.css/ </li>
+    <li> Why it was used: Used to make browser render all elements more consistently and in line with mordern standards </li>
+    </ul>
+<li> <a href="https://developers.google.com/maps/documentation/embed/get-started?hl=zh-tw"> Google Maps Embed </a> </li> 
+    <ul>
+    <li> Official Site: https://developers.google.com/maps/documentation/embed/get-started?hl=zh-tw </li>
+    <li> Why it was used: Used to show the location of the swimming academy </li>
+    </ul>
+<li> <a href="https://www.youtube.com/"> Youtube Embed </a> </li> 
+    <ul>
+    <li> Official Site: https://www.youtube.com/ </li>
+    <li> Why it was used: Used in the video section to embed a YouTube video </li>
+    </ul>
+<li> <a href="https://github.com/"> GitHub </a> </li> 
+    <ul>
+    <li> Official Site: https://github.com/ </li>
+    <li> Why it was used: Used for version control </li>
+    </ul>
+<li> <a href="https://www.figma.com/files/team/1393105764447027347/recents-and-sharing?fuid=1393105760185819961"> Figma </a></li> 
+    <ul>
+    <li> Official Site: https://www.figma.com/files/team/1393105764447027347/recents-and-sharing?fuid=1393105760185819961 </li>
+    <li> Why it was used: Used to create wireframe for the webpage </li>
+    </ul>
+<li> <a href="https://code.visualstudio.com/"> Visual Studio Code </a> </li> 
+    <ul>
+    <li> Official Site: https://code.visualstudio.com/ </li>
+    <li> Why it was used: Used to code out the website (HTML, CSS, JavaScript) </li>
+    </ul>
+</ol>
