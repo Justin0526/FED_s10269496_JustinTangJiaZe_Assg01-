@@ -134,4 +134,47 @@ This website is designed to include all ages who are interested in learning to s
     <li> Official Site: https://code.visualstudio.com/ </li>
     <li> Why it was used: Used to code out the website (HTML, CSS, JavaScript) </li>
     </ul>
+<li> <a href="https://www.adobe.com/sg/products/photoshop.html#modal-hash"> Photoshop </a> </li>
+    <ul>
+    <li> Official Site: https://www.adobe.com/sg/products/photoshop.html#modal-hash </li>
+    <li> Why it was used: Used to edit pictures in the website </li>
+    </ul>
 </ol>
+
+<h2> Testing </h2>
+
+<h2> Credits </h2>
+<h3> Content </h3>
+<ul>
+<li> The content were all written by myself and modified and imrpoved by <a href="https://chatgpt.com/">ChatGPT</a> and 
+<a href="https://app.grammarly.com/"> Grammarly </a> </li>
+</ul>
+
+<h3> Media </h3>
+<h4> Google Pictures & Facebook: </h4>
+<ol>
+<li> <a href="https://img.freepik.com/free-vector/hand-drawn-flat-design-swimming-logo-template_23-2149364650.jpg"> Swimlogo </a>   </li>
+<li> <a href="https://images.squarespace-cdn.com/content/v1/60b770454e1e5542857bb262/1694527499153-QZ4BDA3SIN9L5AICSB34/ukactive-Swimming-lessons-lost-in-lockdown.jpg"> HomePage </a> </li>
+<li> <a href="https://www.cdc.gov/healthy-swimming/media/images/2024/07/GettyImages-538602500.jpg"> HomePage 2 </a> </li>
+<li> <a href="https://greensboroaquaticcenter.com/wp-content/uploads/2023/09/1JKP_0068-scaled.jpg"> HomePage 3 </a> </li>
+<li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t1.6435-9/49343111_2108444052532069_8845781292696993792_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=UK6OKCyV9yMQ7kNvgEycA_E&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=A5iHP3LOBRibwKo-OI1HA5b&oh=00_AYB-xA8NK-iHWGZ3XblPzEHK7XKUPf4fHlM4XOAVkbF4sQ&oe=676D1E37"> LTSKidspage </a> </li>
+<li> <a href="https://blogscdn.thehut.net/app/uploads/sites/1449/2021/05/Home-workout-post-2_1620815134.png"> Swimming Pool picv2   </a> </li>
+<li> <a href="https://aquamobileswim.com/wp-content/uploads/2019/02/4-Swimming-Benefits-for-Kids.jpg"> LTSkids</a> </li>
+<li> <a href="https://www.wavesfitnessandaquatic.com.au/files/sharedassets/waves/v/1/page-banners/adult-swim.jpg?w=1200"> ltsAdult   </a> </li>
+<li> <a href="https://trampoolin.com/wp-content/uploads/2022/10/1920x1280-trampoolin-vuxensim-1.jpg"> ltsLady </a> </li>
+<li> <a href="https://bluebuoy.com/wp-content/uploads/2024/08/top-10-benefits-of-private-swim-lessons.webp"> Private Lesson</a> </li>
+<li> <a href="https://img.etimg.com/thumb/width-1200,height-900,imgsize-39118,resizemode-75,msid-103698496/top-trending-products/sports-equipment/best-swimming-gear-collection-for-your-unforgettable-aquatic-adventures.jpg"> swimGear </a> </li>
+<li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t1.6435-9/88339902_2894635027246297_4492118406694174720_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=P0bHMxfMbEcQ7kNvgESQIxt&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=Aff9mWivxmGij0fEpgWkhlO&oh=00_AYAGikQRj44sb1e7_hq6OuZtrn5Gj6w-8kHqPRZwBS-q0A&oe=676D3B2D"> LTS kids sidepic </a> </li>
+<li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t39.30808-6/375471466_687917950041365_96559214980651760_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DSKYnDujsvUQ7kNvgEid3Xo&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=APxYQVHsVA8oyoPQzdUBr-I&oh=00_AYBDhUJwet9qxhDgTuTL155rdCXWyrXYOAuJHbNv4K5AWA&oe=674BB3EF"> Advanced1 </a> </li>
+<li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t39.30808-6/448428789_857313449768480_8389785032633081890_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=111&ccb=1-7&_nc_sid=833d8c&_nc_ohc=o_yYLuFGesUQ7kNvgHI0AvV&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=A293a-TqR6nl7zIHRfkfM87&oh=00_AYBNq6N4Z9IJiGQKpPwB94A6iZt_-5r3ibnUO4GASr7tmQ&oe=674BAD5F"> Intermediate </a> </li>
+<li> <a href="https://scontent.fsin15-2.fna.fbcdn.net/v/t39.30808-6/448383252_857313463101812_751033684323345785_n.jpg?stp=cp6_dst-jpg&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=pfhj7U2A5sAQ7kNvgHpb2wK&_nc_zt=23&_nc_ht=scontent.fsin15-2.fna&_nc_gid=At8htYT1maEUJLNjEYXL5II&oh=00_AYB_lQWGM1szEGVh1_jSNWWZVWliYDsQ6FzfBKnP7NLlLQ&oe=674B9420"> Development </a> </li>
+<li> <a href="https://scontent-sin11-1.xx.fbcdn.net/v/t39.30808-6/448226305_857328119767013_8303202204672498200_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FaYga3wiDsQQ7kNvgE-IPOJ&_nc_zt=23&_nc_ht=scontent-sin11-1.xx&_nc_gid=A8vgqe8ZYKGaJvROKuK7o34&oh=00_AYC1yWEZxAoAJvdtGwG3UA9tHGO04DKl4SH_oYCT1RguYg&oe=674C6A5F"> Teampic1 </a>  </li>
+<li> <a href="https://compote.slate.com/images/83666164-00ca-424c-95ea-105f4ab8d6df.jpg"> PRG-kids </a>  </li>
+</ol>
+
+<h3> Achknowledgements </h3>
+<p>
+I received inspiration for this project from my ex-swimming academy. A place that I've been since the end of the year since 7 years old. I have learn to swim, trained extensively and even worked as a swimming coach in the swimming academy in Malaysia, Johor, Kluang, until I arrived at Singapore to further my studies. Because The academy being local to the town where I'm from, played a significant role in shaping my skills and passion for swimming. This project is my attempt to test my abilities and build a website with what I've learnt to further promote the swimming academy. 
+</p>
+<em> Ps ~ This is not a website revamp, The academy does not currently have a website, and the name used here is also fictional. 
+</em>
