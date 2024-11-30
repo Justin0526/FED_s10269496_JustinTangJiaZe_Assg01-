@@ -23,7 +23,7 @@ This website is designed to include all ages who are interested in learning to s
 
 <b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
 
-<b>>Mobile Wireframe</b>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
+<b>Mobile Wireframe</b>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
 
 <h2> Features </h2>
 <h3> Existing Features </h3>
@@ -137,7 +137,7 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://www.adobe.com/sg/products/photoshop.html#modal-hash"> Photoshop </a> </li>
     <ul>
     <li> Official Site: https://www.adobe.com/sg/products/photoshop.html#modal-hash </li>
-    <li> Why it was used: Used to edit pictures in the website </li>
+    <li> Why it was used: Used to edit pictures used in the website </li>
     </ul>
 </ol>
 
@@ -146,7 +146,7 @@ This website is designed to include all ages who are interested in learning to s
 <h2> Credits </h2>
 <h3> Content </h3>
 <ul>
-<li> The content were all written by myself and modified and imrpoved by <a href="https://chatgpt.com/">ChatGPT</a> and 
+<li> The content were all written by myself and modified and improved by <a href="https://chatgpt.com/">ChatGPT</a> and 
 <a href="https://app.grammarly.com/"> Grammarly </a> </li>
 </ul>
 
@@ -163,6 +163,7 @@ This website is designed to include all ages who are interested in learning to s
 <li> <a href="https://www.wavesfitnessandaquatic.com.au/files/sharedassets/waves/v/1/page-banners/adult-swim.jpg?w=1200"> ltsAdult   </a> </li>
 <li> <a href="https://trampoolin.com/wp-content/uploads/2022/10/1920x1280-trampoolin-vuxensim-1.jpg"> ltsLady </a> </li>
 <li> <a href="https://bluebuoy.com/wp-content/uploads/2024/08/top-10-benefits-of-private-swim-lessons.webp"> Private Lesson</a> </li>
+<li> <a href="https://images.sidearmdev.com/convert?url=https%3A%2F%2Fdxbhsrqyrr690.cloudfront.net%2Fsidearm.nextgen.sites%2Fbrocku.sidearmsports.com%2Fimages%2F2024%2F2%2F16%2FJayson_Childs_OUA_SWIM_16_000153.jpg&type=webp"> Train </a> </li>
 <li> <a href="https://img.etimg.com/thumb/width-1200,height-900,imgsize-39118,resizemode-75,msid-103698496/top-trending-products/sports-equipment/best-swimming-gear-collection-for-your-unforgettable-aquatic-adventures.jpg"> swimGear </a> </li>
 <li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t1.6435-9/88339902_2894635027246297_4492118406694174720_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=127cfc&_nc_ohc=P0bHMxfMbEcQ7kNvgESQIxt&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=Aff9mWivxmGij0fEpgWkhlO&oh=00_AYAGikQRj44sb1e7_hq6OuZtrn5Gj6w-8kHqPRZwBS-q0A&oe=676D3B2D"> LTS kids sidepic </a> </li>
 <li> <a href="https://scontent.fsin15-1.fna.fbcdn.net/v/t39.30808-6/375471466_687917950041365_96559214980651760_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DSKYnDujsvUQ7kNvgEid3Xo&_nc_zt=23&_nc_ht=scontent.fsin15-1.fna&_nc_gid=APxYQVHsVA8oyoPQzdUBr-I&oh=00_AYBDhUJwet9qxhDgTuTL155rdCXWyrXYOAuJHbNv4K5AWA&oe=674BB3EF"> Advanced1 </a> </li>
