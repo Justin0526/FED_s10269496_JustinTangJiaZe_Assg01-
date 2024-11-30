@@ -656,11 +656,14 @@ align-items: center;
     border: 0 transparent; 
     border-bottom: 0.2em solid #ccc;
     padding-left: 2%;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    
 }
 
 .contact .map-table{
     margin-bottom: 3vw;
-    border:#c30404;
+    border:4px #c30404 ;
     
 }
 
@@ -894,7 +897,7 @@ h2 {
     align-items: center; /* Centers form elements horizontally */
 }
 
-.signUpForm .from-content section {
+.signUpForm .form-content section {
     margin-bottom: 2vw; /* Adds space between each section */
     display: flex;
     flex-direction: column;
@@ -902,13 +905,13 @@ h2 {
     width: 100%;
 }
 
-.signUpForm .from-content label{
+.signUpForm .form-content label{
     width: 100%;
     font-size: 1.7vw;
     margin-bottom: 1vw;
 }
 
-.signUpForm .from-content input {
+.signUpForm .form-content input {
     width: 50vw;
     height: 3.2vw;
     border-radius: 0.8vw;
@@ -918,7 +921,7 @@ h2 {
     padding-left: 2%;
 }
 
-.signUpForm .from-content select {
+.signUpForm .form-content select {
     width: 50vw; /* Same width as input fields */
     height: 3.2vw; /* Same height as input fields */
     border-radius: 0.8vw; /* Same border-radius as input fields */
@@ -1026,7 +1029,6 @@ h2 {
 
 .submitSignUp{
     width: 30%;
-    position: relative;
     left: 35%;
     font-size: 1.8vw;
     font-family: "Dancing Script", cursive;
