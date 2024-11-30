@@ -11,3 +11,16 @@ By offering this all-inclusive service, the website caters to those who want to 
 </p>
 
 <h2> Design Process <h2>
+<p>
+This website is designed to include all ages who are interested in learning to swim, improving their swimming skills, or even challenging the limits of themselves. This include children as young as four, adults that have phobia for water and elderly who want to remain active. They may have diverse goals, such as overcoming a fear, breaking through themselves or even just treating it a simple exercise. The primary users include:
+</p>
+<ul>
+<li>As a parent, I want to search for swimming lessons for my children. (Mainly for water safety)</li>
+<li>As an adult, I want to improve my swimming skills, learn to swim because of an injury, or overcoming my fear for the water or even just as simple as exercising. </li>
+<li>As a senior citizen, I want to exercise my whole body but I don't want the to burden my joints too much</li>
+<li>As a competitive swimmer, I want to refine my swimming techniques and break my PBs.</li>
+</ul>
+
+<b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
+
+<em>Mobile Wireframe</em>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
