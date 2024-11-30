@@ -10,7 +10,7 @@ In the future, we hope to save potential customers' time, we are planning to imp
 By offering this all-inclusive service, the website caters to those who want to learn to swim or even train but may feel uncertain about where to begin, ensuring a seamless, supportive journey into the sport.
 </p>
 
-<h2> Design Process <h2>
+<h2> Design Process </h2>
 <p>
 This website is designed to include all ages who are interested in learning to swim, improving their swimming skills, or even challenging the limits of themselves. This include children as young as four, adults that have phobia for water and elderly who want to remain active. They may have diverse goals, such as overcoming a fear, breaking through themselves or even just treating it a simple exercise. The primary users include:
 </p>
@@ -23,4 +23,4 @@ This website is designed to include all ages who are interested in learning to s
 
 <b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
 
-<em>Mobile Wireframe</em>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
+<b>>Mobile Wireframe</b>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
