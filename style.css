@@ -157,6 +157,11 @@ p{
     width: 100%;
     max-width: 100%;
     position:relative;
+    
+    img{
+        width: 60%;
+        height:auto;
+    }
 
     h1{
         font-size: 3.5vw;
@@ -174,8 +179,8 @@ p{
         align-items: center;
         position: absolute;
         right: 0;
-
     }
+
 }
 
 #searchBar {
@@ -387,6 +392,7 @@ img:hover{
 }
 .slideshow-container .mySlides img{
     transform: scale(1);
+    width: 100%;
 }
 /* Next & previous buttons */
 .prev, .next {
@@ -486,6 +492,10 @@ img:hover{
     padding-bottom: 5rem;
     display: flex;
     justify-content: center;
+    iframe{
+        width: 80%;
+        height: 80vh;
+    }
 }
 
 /* Swim With Us */ 
