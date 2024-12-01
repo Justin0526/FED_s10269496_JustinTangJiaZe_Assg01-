@@ -21,6 +21,9 @@ This website is designed to include all ages who are interested in learning to s
 <li>As a competitive swimmer, I want to refine my swimming techniques and break my PBs.</li>
 </ul>
 
+<b> URL to my <a href="https://justin0526.github.io/FED_s10269496_JustinTangJiaZe_Assg01-/"> Git </a></b>
+<em> My sincere apologies for an unknown error that I couldn't find. The first picture on the home page wouldn't show up when you click in to the link. However, if you click to other pages and click back to the home page, it does show back up.</em>
+
 <b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
 
 <b>Mobile Wireframe</b>: https://www.figma.com/design/DetYWuCIjzUsbJfaUETJdn/FED-Wireframe-Mobile-Git?t=2inIok3eNkqUbAzZ-0
@@ -260,6 +263,7 @@ I have tried my best and tried all the possiblities and solved I believe most of
 <ul>
 <li> The content were all written by myself and modified and improved by <a href="https://chatgpt.com/">ChatGPT</a> and 
 <a href="https://app.grammarly.com/"> Grammarly </a> </li>
+<li> Special thanks to <a href="https://www.w3schools.com/"> W3schools </a> for teaching me to debug and write code! I have a clearer idea on how to implement more functions right now! </li>
 </ul>
 
 <h3> Media </h3>
@@ -296,5 +300,7 @@ I have tried my best and tried all the possiblities and solved I believe most of
 <p>
 I received inspiration for this project from my ex-swimming academy. A place that I've been since the end of the year since 7 years old. I have learn to swim, trained extensively and even worked as a swimming coach in the swimming academy in Malaysia, Johor, until I arrived at Singapore to further my studies. Because The academy being local to the town where I'm from, played a significant role in shaping my skills and passion for swimming. This project is my attempt to test my abilities and build a website with what I've learnt to further promote the swimming academy. 
 </p>
-<em> Ps ~ This is not a website revamp, The academy does not currently have a website, and the name used here is also fictional. 
+<em> 
+Ps ~ This is not a website revamp, The academy does not currently have a website, and the name used here is also fictional. 
 </em>
+
