@@ -2,31 +2,35 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
+        
         <link rel = "stylesheet" href = "style.css" type="text/css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/cccb8442f6.js" crossorigin="anonymous"></script>
         
         <title>Z Swim</title>
-
+        <!-- Google Form Import-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Parkinsans:wght@300..800&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarina&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head> 
     <body id="homePage">
+        <!-- For color changing scroll bar -->
         <div id="progressbar"></div>
-        <div id="scrollPath"></div>
+        <div id="scrollBar"></div>
 
-        <article class = 'Header'>
-            <a href = '#' class="logoPic"><img src = "Picture\Swimlogo.png" title = "logo" alt ="Swimming"></a>
-            <h1> Target of Champions </h1> 
+        <!-- Header -->
+        <Header class = 'Header'>
+            <a href = '#' class="logoPic"><img src = "Picture/Swimlogo.png" title = "logo" alt ="Swimming"></a>
+            <h1> Target of Champions </h1>
+            <!-- Top Right Menu and Search --> 
             <div class="menu">
-                <a href="#" id="menuIcon"> <img src="Picture\MenuBar.png" alt="MenuImage"> </a>
-                <a href="#" id="searchIcon"> <img src="Picture\SearchIcon.png" alt="SearchImage"> </a>
+                <a href="#" id="menuIcon"> <img src="Picture/MenuBar.png" alt="MenuImage"> </a>
+                <a href="#" id="searchIcon"> <img src="Picture/SearchIcon.png" alt="SearchImage"> </a>
                 <input type="text" id="searchBar" placeholder="Search...">
             </div>
-        </article>
+        </Header>
 
+        <!-- Menu in menu button -->
         <nav class="menuBtn">
             <ul class="menuList">
                 <li><a href="#">Home</a></li>
@@ -40,6 +44,7 @@
             </ul>
         </nav>
 
+        <!-- Menu in navigation -->
         <nav class = "navbar">
             <article class = "navdiv">
                 <ul class = "navlist">
@@ -54,6 +59,7 @@
             </article>
         </nav>
 
+        <!-- Slideshow pictures -->
         <section class="slideshow-container">
 
             <article class="mySlides fade">
@@ -68,27 +74,31 @@
               <img src="Picture/Homepage3.png" alt="Homepage Image">
             </article>
             
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <!-- Click on an arrow, and it will decide to switch the picture to the left or right -->
+            <a class="previous" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
             
         </section>
+        <!-- break a line -->
         <br>
         
+        <!-- Shows the page that the user is on with the dots below -->
         <section style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span> 
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
         </section>   
+        <!-- Welcome Message -->
         <h1 id="welcome"> Welcome To Z Swim </h1>
 
-
+        <!-- Youtube video -->
         <section>
             <section class = "video"> 
             <iframe  src="https://www.youtube.com/embed/Kn7LpJkp2Qs?si=QxM_6pkXNdNVMbIW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </section>
         </section>
 
-       
+       <!-- Short extract about the swimming academy -->
         <section class="swimTgt">
             <h2> Swim With Us </h2>
             <p>
@@ -98,64 +108,76 @@
             </p>
         </section>
 
+        <!-- Programs and services provided by the swimming academy -->
         <main class="program">
-           
+            
+            <!-- The only working link -->
             <section class="kids">
                 <h3><a href ='#' class="child">Learn to Swim Kids</a> </h3>
-                <a href ='#' class="child"> <img width="400" height="267" src="Picture\LTSkids.png" title="lts kids" alt="kidsPic"> </a>
+                <a href ='#' class="child"> <img width="400" height="267" src="Picture/LTSkids.png" title="lts kids" alt="kidsPic"> </a>
             </section>
 
             <section class="adults">
                 <h3><a href ='#'>Learn to Swim Adults</a></h3>
-                <a href ='#'> <img width="400" height="267" src="Picture\ltsAdult.png" title="lts Adults" alt="adultPic"> </a>
+                <a href ='#'> <img width="400" height="267" src="Picture/ltsAdult.png" title="lts Adults" alt="adultPic"> </a>
             </section>    
             
             <section class="ladies">
                 <h3><a href ='#'> Learn to Swim Ladies</a></h3>
-                <a href = '#'> <img width="400" height="267" src="Picture\ltsLady.png" title="lts Lady" alt="ladyPic"></a>
+                <a href = '#'> <img width="400" height="267" src="Picture/ltsLady.png" title="lts Lady" alt="ladyPic"></a>
             </section>
 
             <section class="private">
                 <h3><a href="#"> Private Lessons </a></h3>
-                <a href="#"> <img width="400" height="267" src="Picture\Privatelesson.png" title="Private" alt="privatePic"></a>
+                <a href="#"> <img width="400" height="267" src="Picture/Privatelesson.png" title="Private" alt="privatePic"></a>
             </section>
 
             <section class="train">
                 <h3><a href="#"> Training Lessons </a></h3>
-                <a href="#"><img width="400" height="267" src="Picture\Train.png" title="Train" alt="trainingPic"></a>
+                <a href="#"><img width="400" height="267" src="Picture/Train.png" title="Train" alt="trainingPic"></a>
             </section>
 
             <section class="shop">
                 <h3><a href="'#"> Shop </a></h3>
-                <a href="#"><img width="400" height="267" src="Picture\swimGear.png" title="shopping" alt="shopPic"></a>
+                <a href="#"><img width="400" height="267" src="Picture/swimGear.png" title="shopping" alt="shopPic"></a>
             </section>
         </main>
 
+        <!-- The contact us form -->
         <section class="contact">
             <h2> Contact Us </h2>
+            <!-- Used table to create a two-column layout -->
             <table> 
                 <tr> 
                     <td class="form-table">
+                        <!-- Contact from starts here -->
                         <form id="contactForm" action = "#" method="GET">
-                            <article class="from-content">
+                            <article class="form-content">
+
+                            <!-- Name input section -->
                                 <section class="name">
                                     <label for="name"> Name  </label>
                                     <input type="text" placeholder="Enter your name" name="username" id="name" required>
                                 </section>
-                
+
+                            <!-- Email input section -->
                                 <section class="email">
                                     <label for="email"> Email </label>
                                     <input type="text" placeholder="Enter Email Address" name="emailAddress" id="email" required>
                                 </section>
-                
+
+                            <!-- Phone number input section -->
                                 <section class="phoneNo">
                                     <label for="phoneNum"> Phone Number </label>
                                     <input type="text" placeholder="Enter Phone Number" name="phone" id="phoneNum" required>
                                 </section>
                             </article>
 
+                            <!-- Submit button -->
                             <button class="submit"> Submit </button>
                         </form>
+
+                        <!-- Success message modal that appears after form submission -->
                         <div id="successModal" class="modal">
                             <div class="modal-content">
                                 <span class="close-button">&times;</span>
@@ -163,6 +185,8 @@
                             </div>
                         </div>
                     </td>
+
+                    <!-- Embedded Google map displaying location -->
                     <td class="map-table">
                         <p class="map"> 
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.633613614482!2d103.88372637528896!3d1.3962951985905219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16740b018625%3A0x44c97caf7ab200da!2sSengkang%20ActiveSG%20Swimming%20Complex!5e0!3m2!1sen!2ssg!4v1732502385198!5m2!1sen!2ssg" 
@@ -173,29 +197,42 @@
             </table>    
         </section>
 
+        <!-- Footer for webpage -->
         <footer class = "foot"> 
+             <!-- Some information in the footer -->
             <section class = infoDiv>
                 <h2> Information </h2> 
+                <!-- First row of links -->
                 <ul class = "infoList">
                     <div class ="row" >
                         <li><a href = '#'> FAQ </a></li>
                         <li><a href = '#'> Terms & Condition </a></li>
                         <li><a href = '#'> Data Protection </a></li>
                     </div>
+
+                    <!-- second row of links -->
                     <div class="row">
                         <li><a href = '#'> Refer a Friend</a></li>
                         <li><a href = '#'> Contact Us </a></li>
+
+                         <!-- Social Media Links -->
                         <li class = "socialMedia">
+                            <!-- Whatsapp icon -->
                             <a href = '#'> <i class="fa-brands fa-whatsapp"></i> </a>
+                            <!-- Facebook icon -->
                             <a href = '#'> <i class="fa-brands fa-facebook"> </i></a>
+                            <!-- Instagtam icon -->
                             <a href = '#'> <i class="fa-brands fa-instagram"> </i></a>
+                            <!-- Email icon -->
                             <a href = '#'> <i class="fa-solid fa-envelope"> </i></a>
+                            <!-- Phone icon -->
                             <a href = '#'> <i class="fa-solid fa-phone"></i> </a>
                         </li>
                     </div>
                 </ul>
             </section>
         </footer>
+        <!-- Back to top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>   
         <script src="script.js"></script>
     </body>
