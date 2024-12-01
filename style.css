@@ -307,7 +307,6 @@ body.menu-open #searchBar {
     list-style: none;     /* remove list style */
     display: flex;  
     flex-direction: column;     
-    /* flex-wrap: wrap;      Allows child elements to wrap onto the next line if needed */
     background-color: black;
     color: white;
     justify-content:center;
@@ -364,12 +363,12 @@ body.menu-open #searchBar {
 
 /* ------------------------------ Back To Top Button ------------------------------ */
 
-#myBtn {
+#BckToTopButn {
     display: none; /* Initially hides the button */
     position: fixed; /* Keeps the button fixed in the viewport */
     bottom: 2vw;
     right: 3vw;
-    z-index: 99; /* Ensures the button appears on top of most elements */
+    z-index: 1000; /* Ensures the button appears on top of most elements */
     font-size: 1.8vw;
     border: none; /* Removes the default border styling */
     background-color: rgb(255, 0, 0);
@@ -379,7 +378,7 @@ body.menu-open #searchBar {
     border-radius: 4px; /* Rounds the corners of the button */
   }
   
-#myBtn:hover {
+#BckToTopButn:hover {
     background-color: #154c71; /* Changes the background color when the button is hovered */
 }
 /* -------------------------------------------------------------------------------- */
@@ -1401,7 +1400,6 @@ h2 {
         margin-bottom: 4vw;;
     }
 
-
     .afterLts .Teams h3{
         top: 30%;
         font-size: 5vw;   
@@ -1636,9 +1634,6 @@ h2 {
     .program a img{
         width: 100%;
         height: auto;
-    }
-    .program section{
-        flex-basis: calc(50% - 2rem)
     }
 
     .contact h2{
