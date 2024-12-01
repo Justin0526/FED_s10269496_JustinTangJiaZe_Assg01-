@@ -21,7 +21,8 @@ This website is designed to include all ages who are interested in learning to s
 <li>As a competitive swimmer, I want to refine my swimming techniques and break my PBs.</li>
 </ul>
 
-<b> URL to my <a href="https://justin0526.github.io/FED_s10269496_JustinTangJiaZe_Assg01-/"> Git </a></b>
+<b> URL to my Git </b>: https://justin0526.github.io/FED_s10269496_JustinTangJiaZe_Assg01-/
+<br>
 <em> My sincere apologies for an unknown error that I couldn't find. The first picture on the home page wouldn't show up when you click in to the link. However, if you click to other pages and click back to the home page, it does show back up.</em>
 
 <b>Desktop Wireframe</b>: https://www.figma.com/design/1LhHkRaT226Lo6i81tOjWi/FED-Wireframe-Git?t=2inIok3eNkqUbAzZ-0
