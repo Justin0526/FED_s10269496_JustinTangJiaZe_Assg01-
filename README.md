@@ -248,6 +248,9 @@ Pictures are of different sizes, so Photoshop was a necessary tool to edit it to
 A lot of Youtube videos doesn't allow us to use their embeded code.
 </li>
 <li>
+When the width shrinks too small the content will still overflow.
+</li>
+<li>
 I have tried my best and tried all the possiblities and solved I believe most of them of what I think the website could go wrong. I have also invited others to help my try, if there is still another problem/bug, I'm sincerely sorry and I promise to make improvements after receiving feedback.
 </li>
 </ol>
