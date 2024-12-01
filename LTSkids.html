@@ -2,11 +2,11 @@
     <head>
         <meta charset="UTF-8" />
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
         <link rel = "stylesheet" href = "style.css" type="text/css">
+        <!-- FontAwesome for icons -->
         <script src="https://kit.fontawesome.com/cccb8442f6.js" crossorigin="anonymous"></script>
         <title>LTS Kids</title>
-
+        <!-- Google Form Import-->
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
          <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Dancing+Script:wght@400..700&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ga+Maamli&family=Lilita+One&family=Merriweather&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pacifico&family=Parkinsans:wght@300..800&family=Protest+Revolution&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sarina&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -14,19 +14,23 @@
     </head>
     <body id="LTSkidsPage">
         
+        <!-- For color changing scroll bar -->
         <div id="progressbar"></div>
-        <div id="scrollPath"></div>
-        
-        <article class = 'Header'>
-            <a href = '#' class="logoPic"><img src = "Picture\Swimlogo.png" title = "logo" alt ="Swimming"></a>
-            <h1> Target of Champions </h1> 
-            <section class="menu">
-                <a href="#" id="menuIcon"> <img src="Picture\MenuBar.png" alt="MenuImage"> </a>
-                <a href="#" id="searchIcon"> <img src="Picture\SearchIcon.png" alt="SearchImage"> </a>
-                <input type="text" id="searchBar" placeholder="Search...">
-            </section>
-        </article>
+        <div id="scrollBar"></div>
 
+        <!-- Header -->
+        <Header class = 'Header'>
+            <a href = '#' class="logoPic"><img src = "Picture/Swimlogo.png" title = "logo" alt ="Swimming"></a>
+            <h1> Target of Champions </h1>
+            <!-- Top Right Menu and Search --> 
+            <div class="menu">
+                <a href="#" id="menuIcon"> <img src="Picture/MenuBar.png" alt="MenuImage"> </a>
+                <a href="#" id="searchIcon"> <img src="Picture/SearchIcon.png" alt="SearchImage"> </a>
+                <input type="text" id="searchBar" placeholder="Search...">
+            </div>
+        </Header>
+
+        <!-- Menu in menu button -->
         <nav class="menuBtn">
             <ul class="menuList">
                 <li><a href="#" class="HomeLink">Home</a></li>
@@ -39,7 +43,8 @@
                 <li><a href="#">Sign In</a></li>
             </ul>
         </nav>
-
+          
+        <!-- Menu in navigation -->
         <nav class = "navbar">
             <article class = "navdiv">
                 <ul class = "navlist">
@@ -54,19 +59,24 @@
             </article>
         </nav>
 
+        <!-- Background image and Register button -->
         <div class="kidsImg">
-            <img  src="Picture\LTSkidspage.png" alt="KidsPage Image">
+            <img  src="Picture/LTSkidspage.png" alt="KidsPage Image">
             <section class="Lts">
                 <h2> Learn to Swim Kids </h2>
+                <!-- Register button -->
                 <button class="register" onclick="scrollToForm()"> Register now </button>
             </section>
         </div>
 
+        <!-- Main Content Section with detailed information -->
         <main class="kidsContent">
             <article class="main-sections">
                 <section class="left-section">
                     <section>
+                        <!-- Age information -->
                         <div id="age"> <h3> Age: 4 - 12 years old </h3> </div>
+                        <!-- Price information -->
                         <h3> Price </h3>
                         <p> $320 / 10 classes </p>
                         <p> $160 / 4 classes </p>
@@ -75,16 +85,13 @@
                         </p>
                     </section>
                     
-                    
+                    <!-- Why Learn To Swim section -->
                     <section class="why-box">
                         <h2> Why Learn To Swim  </h2>
                         <p>
                         Learning to swim is an essential life skill for children, providing them with safety, confidence, and a love for water-based activities!
                         Early exposure to swimming equips kids with vital skills to prevent drowning and also enhances their physical development, coordination, 
-                        and overall fitness. 
-                        </p>
-                        <p>
-                        At Z Swimming Academy, our learn-to-swim program introduces kids as young as 4 years old to the fundamentals of 
+                        and overall fitness. <br> At Z Swimming Academy, our learn-to-swim program introduces kids as young as 4 years old to the fundamentals of 
                         swimming in a fun and supportive environment. With our learn-to-swim progressive program alongside our experienced coaches’ 
                         dynamic teaching techniques, kids will learn essential skills such as floating, kicking, basic strokes such as freestyle and breaststroke
                         and finally, water trekking. As the students develop crucial swimming skills, they will also gain more confidence and a sense of achievement.
@@ -92,19 +99,22 @@
                         </p>
                     </section>
                 </section>
-
+                
+                <!-- Right-side image for visual appeal -->
                 <section class="right-section">
-                    <img src="Picture\LTS kids sidepic.jpg" alt="kids SideImage">
+                    <img src="Picture/LTS kids sidepic.jpg" alt="kids SideImage">
                 </section>
             </article>
         </main>
-
+         
+        <!-- After the main section: Options for next levels in the swimming program -->
         <article class="afterLts">
             <h2> So... Where do you go after Learn To Swim? </h2>
             <article class="Teams">
-
+                
+                <!-- Development Team -->
                 <section class="dTeam">
-                    <img src="Picture\Development.png" alt="developPic">
+                    <img src="Picture/Development.png" alt="developPic">
                     <a href="#"> <h3> Development </h3> </a>
                     <p>
                         In the Development Team, we will be refining student swimming techniques
@@ -113,8 +123,9 @@
                     </p>
                 </section>
 
+                <!-- Intermediate Team -->
                 <section class="inTeam">
-                    <img src="Picture\Intermediate.png" alt="intermediatePic">
+                    <img src="Picture/Intermediate.png" alt="intermediatePic">
                     <a href="#"> <h3> Intermediate </h3> </a>
                     <p>
                         In the Intermediate Team, we will be teaching the students how to train further
@@ -123,8 +134,9 @@
                     </p>
                 </section>
 
+                <!-- Advanced Team -->
                 <section class="aTeam">
-                    <img src="Picture\Advanced1.png" alt="advancedPic">
+                    <img src="Picture/Advanced1.png" alt="advancedPic">
                     <a href="#"> <h3> Advanced </h3> </a>
                     <p>
                         In the Advanced Team, this place is where most of our competitive swimmers are.
@@ -134,29 +146,35 @@
                 </section>
             </article>
 
+            <!-- Button to learn more about further training options -->
             <button class="learnMore">Learn More About Training</button>
         </article>
 
+        <!-- Registration Form Section -->
         <article class="signup" id="SignUpForms">
             <article class="signUpForm" id="RegistrationForm">
                 <form action = "#" method="GET">
                     <h2> Sign up for a free class </h2>
+                    <!-- Name input field -->
                     <section class="form-content">
                         <section class="name">
                             <label for="name"> Name  </label>
                             <input type="text" placeholder="Enter your name" name="username" id="name" required>
                         </section>
     
+                        <!-- Phone number input field -->
                         <section class="phoneNo">
                             <label for="phoneNum"> Phone Number </label>
                             <input type="text" placeholder="Enter Phone Number" name="phone" id="phoneNum" required>
                         </section>
         
+                        <!-- Email input field -->
                         <section class="email">
                             <label for="email"> Email </label>
                             <input type="text" placeholder="Enter Email Address" name="emailAddress" id="email" required>
                         </section>
     
+                        <!-- How did you know us dropdown -->
                         <section class="recommend">
                             <label for="who"> How did you know us? </label>
                             <select name="who" id="who">
@@ -171,6 +189,7 @@
                         </section>
                     </section>
 
+                    <!-- Preferred Day Selection -->
                     <article class="Day">
                         <h2> Preferred Day (Multiple Choice) </h2>
                         <section class="CheckboxDay">
@@ -211,6 +230,7 @@
                         </section>
                     </article>
             
+                    <!-- Preferred Time Selection -->
                     <article class="Time">
                         <h2> Preferred Time (Multiple Choice) </h2>
                         <section class="CheckboxTime">
@@ -251,11 +271,13 @@
                         </section>
                     </article>
             
+                    <!-- Feedback section -->
                     <article class="feedback">
                         <h2> Leave us a Message! </h2>
                         <input type="text" placeholder="Enter your message here" name="messages" id="message">
                     </article>
-            
+
+                    <!-- Success message modal that appears after form submission -->
                     <button class="submitSignUp"> Submit </button>
                 </form>
                 <div id="successModal" class="modal">
@@ -267,29 +289,42 @@
             </article>
         </article>
 
+        <!-- Footer for webpage -->
         <footer class = "foot"> 
-            <section class = infoDiv>
-                <h2> Information </h2> 
-                <ul class = "infoList">
-                    <div  class ="row" >
-                        <li><a href = '#'> FAQ </a></li>
-                        <li><a href = '#'> Terms & Condition </a></li>
-                        <li><a href = '#'> Data Protection </a></li>
-                    </div>
-                    <div class="row">
-                        <li><a href = '#'> Refer a Friend</a></li>
-                        <li><a href = '#'> Contact Us </a></li>
-                        <li class = "socialMedia">
-                            <a href = '#'> <i class="fa-brands fa-whatsapp"></i> </a>
-                            <a href = '#'> <i class="fa-brands fa-facebook"> </i></a>
-                            <a href = '#'> <i class="fa-brands fa-instagram"> </i></a>
-                            <a href = '#'> <i class="fa-solid fa-envelope"> </i></a>
-                            <a href = '#'> <i class="fa-solid fa-phone"></i> </a>
-                        </li>
-                    </div>
-                </ul>
-            </section>
-        </footer>
+            <!-- Some information in the footer -->
+           <section class = infoDiv>
+               <h2> Information </h2> 
+               <!-- First row of links -->
+               <ul class = "infoList">
+                   <div class ="row" >
+                       <li><a href = '#'> FAQ </a></li>
+                       <li><a href = '#'> Terms & Condition </a></li>
+                       <li><a href = '#'> Data Protection </a></li>
+                   </div>
+
+                   <!-- second row of links -->
+                   <div class="row">
+                       <li><a href = '#'> Refer a Friend</a></li>
+                       <li><a href = '#'> Contact Us </a></li>
+
+                        <!-- Social Media Links -->
+                       <li class = "socialMedia">
+                           <!-- Whatsapp icon -->
+                           <a href = '#'> <i class="fa-brands fa-whatsapp"></i> </a>
+                           <!-- Facebook icon -->
+                           <a href = '#'> <i class="fa-brands fa-facebook"> </i></a>
+                           <!-- Instagtam icon -->
+                           <a href = '#'> <i class="fa-brands fa-instagram"> </i></a>
+                           <!-- Email icon -->
+                           <a href = '#'> <i class="fa-solid fa-envelope"> </i></a>
+                           <!-- Phone icon -->
+                           <a href = '#'> <i class="fa-solid fa-phone"></i> </a>
+                       </li>
+                   </div>
+               </ul>
+           </section>
+       </footer>
+       <!-- Back to top button -->
         <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>   
         <script src="script.js"></script>
     </body> 

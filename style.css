@@ -683,133 +683,132 @@ align-items: center;  /* Center items horizontally */
 /* ---------------------- */
 /* ----------------------------------------------------------------------- */
 
-
-/* LTS Kids page */
+/* ------------------------------ LTSkids Page ------------------------------ */
 .kidsImg{
     margin-bottom: 2rem;
-    position: relative;
+    position: relative; /* Needed for absolute positioning of the h2 and register button */
 }
 
 .kidsImg img{
     filter: brightness(0.5);
-    transform: scale(1);
+    transform: scale(1); /* Ensures the image is not scaled */
     width: 100%;
 }
 
 .kidsImg .Lts{
-    position: absolute;
+    position: absolute; /* Allows absolute positioning over the image */
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%; /* Ensures the overlay spans the full width and height of the image */
     height: 100%;
 }
 
 .kidsImg h2{
-    position: absolute;
+    position: absolute; /* Positioned absolutely over the image */
     top: 10%; /* Places it near the top */
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%;                    /* Centers it horizontally */
+    transform: translateX(-50%); /* Centers it exactly */
     color:rgb(137, 235, 235);
     font-size: 5vw;
     text-align: center;
     font-family: "Protest Revolution", sans-serif;
-    white-space: nowrap;
+    white-space: nowrap; /* Prevents text from wrapping to a new line */
 }
 
 .kidsImg .register {
     position: absolute;
     top: 70%; /* Places it near the bottom */
     right: 10%;  /* Aligns to the right corner */
-    font-size: 2.2vw;
-    padding: 0.6vw;
+    font-size: 2.2vw; 
+    padding: 0.6vw; /* Adds padding inside the button */
     font-family: "Fira Sans", sans-serif;
     color:rgb(137, 235, 235);
     background-color: rgb(8, 64, 83);
     border-radius: 1vw;
-    cursor: pointer;
-}
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+} 
 
 .kidsImg .register:hover{
-    transform: scale(1.2);
-    background-color: rgb(3, 33, 44); 
+    transform: scale(1.2);  /* Enlarges the button on hover */
+    background-color: rgb(3, 33, 44);  /* Darkens the background color on hover */
 }
 
+/* ----- Content for Learn To Swim Kids ----- */ 
 .kidsContent{
     display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    justify-content:flex-start;
+    flex-direction: column; /* Stacks children vertically */
+    align-items:flex-start; /* Aligns the children to the top */
+    justify-content:flex-start; 
     margin-left: 10%;
     margin-bottom: 2vw;
 }
-       
-/* Parent container styling */
+
 .main-sections {
     display: flex;
-    width: 80%;
-    margin-left: 6%;
+    width: 80%; 
+    margin-left: 6%; /* Adds space on the left */
 }
 
 /* Left section */
 .left-section {
-    flex: 2 ; /* Take up more space proportionally */
+    flex: 2 ; /* Takes up 2/3 of the space, proportional to the right section */
 }
 
 .left-section section{
-    margin-bottom: 2rem;
+    margin-bottom: 2rem; /* Adds space below each section */
 }
 
 .left-section section h3{
     font-size: 1.6vw;
     font-family: "Protest Revolution", sans-serif;
-    margin-bottom: 0.6vw;
-    margin-top: 0.6vw;
+    margin-bottom: 0.6vw; /* Adds space below the section heading */
+    margin-top: 0.6vw; /* Adds space above the section heading */
 }
 .left-section section #age{
-    margin-bottom: 1vw;
+    margin-bottom: 1vw; /* Adds space below the age */
 }
 .left-section section p{
     font-size: 1.3vw;
     font-family: "Protest Revolution", sans-serif;
 }
 .left-section section #registrationFee{
-    margin-top:0.4vw;
+    margin-top:0.4vw; /* Adds space above the registration fee */
     font-size: 0.9vw;
 }
 
 .left-section h2{
     font-size: 1.9vw;
     font-family: "Dancing Script", cursive;
-    margin-bottom: 2%;
+    margin-bottom: 2%; /* Adds space below the section title */
 }
 .left-section .why-box p{
     margin-bottom: 1rem;
-    width: 65%;
+    width: 65%; /* Limits the width of the paragraph */
     font-size: 1.2vw;
     font-family: "Sour Gummy", sans-serif;
 }
 
 /* Right section */
 .right-section {
-    flex: 1; /* Take up less space proportionally */
-    display: flex; /* Optional: to center the image */
+    flex: 1; /* Takes up 1/3 of the space, proportional to the left section */
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* Image styling */
 .right-section img {
-    width: 100%;
     max-width: 100%; /* Ensure the image is responsive */
     height: auto; /* Maintain aspect ratio */
     border-radius: 0.5rem; 
-    border: 0.4vw solid rgb(8, 64, 83) ;
+    border: 0.4vw solid rgb(8, 64, 83) ; /* Adds a solid border around the image */
 }
+/* ------------------------------------------ */
 
-/* after LTS */
+/* ----- after LTS -----  */
 .afterLts {
     text-align: center; /* Centers the text inside the container */
-    display: flex; /* Makes the container a flexbox */
+    display: flex; 
     flex-direction: column; /* Stacks heading and Teams container vertically */
     align-items: center; /* Horizontally centers content */
     justify-content: center;
@@ -823,17 +822,15 @@ h2 {
 }
 
 .Teams {
-    display: flex; /* Enables flexbox for the sections */
+    display: flex; 
     justify-content: center; /* Centers the sections horizontally */
     gap: 4%; /* Adds even spacing between the sections */
     flex-wrap: wrap; /* Ensures sections wrap on smaller screens */
-    width: 100%; /* Uses full width of the container */
     max-width: 80%; /* Restricts max width for larger screens */
     margin-bottom: 2vw;
 }
 
 .Teams section {
-    flex: 1 1 calc(50% - 1vw); /* Makes each section flexible and responsive */
     max-width: 30%; /* Limits sections to 30% width of the container */
     position: relative;
     display: flex;
@@ -841,13 +838,12 @@ h2 {
     align-items: center;
     justify-content: flex-start;
     height: 100%;
-
 }
 
 .Teams img {
     width: 80%; /* Makes images scale to the section's width */
-    height: auto; /* Maintains image aspect ratio */
-    border-radius: 0.8rem; /* Optional: Adds rounded corners */
+    height: auto; 
+    border-radius: 0.8rem; 
     filter: brightness(0.5);
     position: relative;
     margin-bottom:4%;
@@ -858,7 +854,7 @@ h2 {
     top: 35%;
     left: 50%;
     transform: translate(-50%, -50%); /* Adjusts to perfectly center the text */
-    color: white; /* Optional: Makes the text stand out against the image */
+    color: white; 
     font-size: 2.0vw; /* Adjusts the size of the text */
     font-family: "Protest Revolution", sans-serif;
     display: flex;
@@ -876,12 +872,13 @@ h2 {
     font-family: "Protest Revolution", sans-serif;
     width: 35%;
     border-radius: 0.8vw;
-    border: 0 transparent; 
-    border-bottom: 0.2em solid #ccc;
+    border: 0 transparent; /* Removes the border on all sides (sets border to 0 and transparent) for further styling */
+    border-bottom: 0.2em solid rgb(116, 114, 114);
     height: 3.8vw;
 }
+/* ---------------------- */
 
-/* sign-up Form */ 
+/* ----- sign-up Form ----- */ 
 .signUpForm {
     display: flex;
     justify-content: center; /* Horizontally centers the form on the page */
@@ -900,21 +897,21 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 100%;
+    width: 100%; /* Ensures the section takes up the full width of its container */
 }
 
 .signUpForm .form-content label{
     width: 100%;
     font-size: 1.7vw;
-    margin-bottom: 1vw;
+    margin-bottom: 1vw; /* Adds space below the label */
 }
 
 .signUpForm .form-content input {
-    width: 50vw;
-    height: 3.2vw;
+    width: 50vw; /* Sets the input field width to 50% of the viewport width */
+    height: 3.2vw; /* Sets the input field height */
     border-radius: 0.8vw;
-    border: 0 transparent;
-    border-bottom: 0.2em solid #ccc;
+    border: 0 transparent; /* Removes the border */ 
+    border-bottom: 0.4em solid rgb(116, 114, 114); /* Adds a grey bottom border */
     font-size: 1vw;
     padding-left: 2%;
 }
@@ -924,20 +921,19 @@ h2 {
     height: 3.2vw; /* Same height as input fields */
     border-radius: 0.8vw; /* Same border-radius as input fields */
     border: 0 transparent; /* Removes the border */
-    border-bottom: 0.2em solid #ccc; /* Same border style as input fields */
-    font-size: 1vw; /* Same font size as input fields */
-    padding-left: 2%; /* Same padding as input fields */
-    background-color: #fff; /* White background for consistency */
+    border-bottom: 0.4em solid rgb(116, 114, 114); 
+    font-size: 1vw; 
+    padding-left: 2%; 
+    background-color: white;
     cursor: pointer; /* Pointer cursor for interactivity */
 }
 
 /* Preferred Day */
 .Day{
-    width:80%;
-    margin: 0 auto;
-    position: relative;
-    left: 8%;
-    max-width: 80%;
+    margin: 0 auto; /* Centers the container horizontally */
+    position: relative; /* Allows positioning of child elements relative to this container */
+    left: 8%; /* Shifts the container 8% to the right */
+    max-width: 80%; /* Ensures the width does not exceed 80% of the parent */
     margin-bottom: 2vw;
 }
 .Day .CheckboxDay {
@@ -948,11 +944,11 @@ h2 {
   }
   
 .Day .CheckboxDay label {
-    flex: 1 1 30%; /* Each label takes 30% of the container width */
+    flex: 1 1 30%;  /* Each label takes up 30% of the container width, but can grow and shrink */
     box-sizing: border-box; /* Ensures padding/border doesn’t affect the width */
     margin-bottom: 0.5vw;; /* space between rows */
     font-size: 1.8vw;
-    display: flex; /* Ensure that the checkbox and label align properly */
+    display: flex; 
     align-items: center; /* Vertically align the checkbox with the label */
   }
 
@@ -966,10 +962,9 @@ h2 {
     margin-bottom: 2vw; /* Space between heading and checkboxes */
   }
 
-  /* Preferred Time */
+/* Preferred Time */
 .Time{
-    width:80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the container horizontally */
     position: relative;
     left: 8%;
     max-width: 80%;
@@ -987,14 +982,14 @@ h2 {
     box-sizing: border-box; /* Ensures padding/border doesn’t affect the width */
     margin-bottom: 0.5vw;; /* space between rows */
     font-size: 1.8vw;
-    display: flex; /* Ensure that the checkbox and label align properly */
+    display: flex; 
     align-items: center; /* Vertically align the checkbox with the label */
   }
 
 .Time .CheckboxTime input{
-    width: 3vw;
-    height: 3vw;
-    margin-right: 2vw;
+    width: 3vw; /* Sets the width of the checkbox */
+    height: 3vw; /* Sets the height of the checkbox */
+    margin-right: 2vw; /* Adds space between the checkbox and its label */
 }
   
 .Time h2 {
@@ -1004,11 +999,11 @@ h2 {
 /* feedback */
 .feedback{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the container horizontally */
     position: relative;
     left: 8%;
-    max-width: 80%;
-    margin-bottom: 2vw;
+    max-width: 80%; 
+    margin-bottom: 2vw; /* Adds space below the container */
 }
 
 .feedback h2{
@@ -1016,26 +1011,29 @@ h2 {
 }
 
 .feedback input{
-    width: 100%;
-    max-width: 80%;
-    height: 14vw;
+    width: 100%; /* Sets the input field width to fill its container */
+    max-width: 80%; /* Limits the maximum width to 80% of its parent */
+    height: 14vw; /* Sets the height of the input field based on the viewport width */
     border-radius: 1rem;
     font-size: 1.5vw;
-    padding-bottom: 14%;
-    padding-left: 1.5%;
+    padding-bottom: 14%; /* Adds padding at the bottom of the input field */
+    padding-left: 1.5%; /* Adds padding to the left of the input field */
 }
 
+
 .submitSignUp{
-    width: 30%;
-    left: 35%;
+    width: 30%; /* Sets the width of the submit button to 30% of its parent */
+    left: 35%;  /* Centers the button horizontally */
     font-size: 1.8vw;
     font-family: "Dancing Script", cursive;
-    margin-bottom: 2vw;
+    margin-bottom: 2vw; /* Adds space below the submit button */
     border-radius: 0.5rem;
     height: 2.4vw;
-    border: 0 transparent; 
-    border-bottom: 0.2em solid #ccc;
+    border: 0 transparent;  /* Removes the border around the button */
+    border-bottom: 0.2em solid rgb(116, 114, 114); /* Adds a bottom border with a light gray color */
 }
+/* ------------------------ */
+/* -------------------------------------------------------------------------- */
 
 /* Program */
 .prgImg{
