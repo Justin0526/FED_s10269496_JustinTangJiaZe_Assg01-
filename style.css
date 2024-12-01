@@ -1,7 +1,8 @@
+/* Resetting margin, padding and box-sizing for all elements */
 *{
-    margin: 0;
+    margin: 0;  /* Removes default margin and padding */
     padding:0;
-    box-sizing: border-box;
+    box-sizing: border-box;  /* keeps everything including padding inside the box */
     text-decoration: none;
     scroll-behavior: smooth;
 }
@@ -13,7 +14,7 @@ body{
     /* background: linear-gradient(to top, #08243c, #00ffe7); */
 }
 /* ------------------------------ Scroll bar ------------------------------ */
-::-webkit-scrollbar{
+::-webkit-scrollbar{ /* Customise the scroll bar */
     width:0;
 }
 
@@ -143,7 +144,8 @@ body{
     font-weight: 400;
     font-style: normal;
 }
-  
+
+/* Sets default font-family for text*/ 
 h2{
     font-family: "Archivo Black", sans-serif;
 }
@@ -156,21 +158,18 @@ p{
 /* ------------------------------------------------------------------- */
 
 /* ------------------------------ Header ------------------------------ */
+/* Header box */
 .Header {
     display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    align-items: center; /* vertically center the items in the header */
     flex-wrap: nowrap;
-    width: 100%;
     max-width: 100%;
-    position:relative;
     padding: 0 2%; /* No padding on the top, padding 2% on the left and right */
 }
 
 .Header .logoPic img{
     width: 60%;
     height: auto;
-    margin-right: 0;
 }
 
 .Header h1{
@@ -188,10 +187,10 @@ p{
 
 .Header .menu{
     display: flex;
-    margin-right: 2.5%;
+    margin-right: 2.5%; /* space on the right */
     align-items: center;
     position: absolute;
-    right: 0;
+    right: 0; /* align menu to the right side of the header */
 }
 
 .Header .menu img{
@@ -204,12 +203,12 @@ p{
     padding: 0.5vw;
     font-size: 1.2rem;
     border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: rgba(255, 255, 255, 0.9);
-    width: 18vw;
+    border: 1px solid #ccc; /* Light border around the search bar */
+    background-color: rgba(255, 255, 255, 0.9); /* Light background with transparency */
+    width: 18vw; 
     height: auto;
     display: none; /* Hidden initially */
-    transition: all 0.8s ease;
+    transition: all 0.8s ease; /*smooth transition for showing/hiding */
     margin-left: -2vw; /* Move search bar to the left */
 }
 /* Style for when the menu is open */
@@ -217,7 +216,7 @@ body.menu-open .menuBtn {
     right: 0; /* Slide in the menu */
 }
 
-/* Optional: Additional styling to enhance the menu appearance */
+/* Additional styling to enhance the menu appearance */
 .menuBtn {
     position: fixed;
     top: 0;
@@ -225,32 +224,32 @@ body.menu-open .menuBtn {
     width: 30vw;
     height: 100%;
     background-color: rgba(92, 85, 85, 0.9); /* Background for the menu */
-    transition: right 0.3s ease-in-out;
-    z-index: 100;
+    transition: right 0.3s ease-in-out; /* smooth slide transition */
+    z-index: 100;  /* Ensure the menu is above other elements */
     font-family: "Protest Revolution", sans-serif;
 }
 
 .menuList {
-    list-style-type: none;
+    list-style-type: none; /* Remove default list styles */
     padding: 0;
     margin: 0;
-    text-align: center;
+    text-align: center; /* Center align the menu items */
 }
 
 .menuList li {
-    margin: 20px 0;
+    margin: 20px 0; /* spacing between menu items */
 }
 
 .menuList li a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* remove underline from links */
     font-size: 1.4vw;
     display: block;
-    padding: 10px;
+    padding: 10px; /* padding inside each menu item */
 }
 
 .menuList li a:hover {
-    background-color: #171616;
+    background-color: #171616; /* darkens the background when hover */
 }
 
 /* Hide the search bar when the menu is visible */
@@ -266,8 +265,7 @@ body.menu-open #searchBar {
 
 /* ------------------------------ Navigation Bar ------------------------------ */
 .navbar{
-    background-color: crimson;
-    width: 100%;
+    background-color: crimson; 
     height: auto;
     max-width: 100%;
     margin-bottom: 2vw;
@@ -276,31 +274,30 @@ body.menu-open #searchBar {
 
 .navbar .navdiv{
     display: flex; 
-    justify-content:space-between;
-    flex-wrap: wrap;
+    justify-content:space-between; /* Distributes space between items */
+    flex-wrap: wrap; /* allows items to wrap to the full width of the navbar */
     width: 100%;
     padding: 0 10px;
 }
 
 .navbar .navlist{
     display: flex;
-    margin: 0;
-    padding: 0;
-    justify-content: space-evenly;
-    align-items: center;
+    margin: 1vw;  /* Set margin and padding to make the bar look wider */
+    padding: 1vh;
+    justify-content: space-evenly; /*Distributes List items evenly with equal spacing */
+    align-items: center; /* Centers the item in the navigation bar */
     width: 100%;
-    height: 10vh;
-    gap: 10px;
+    height: auto; 
+    gap: 10px; /*Add spacing between list items */
 }
 
 .navbar li{
-    list-style: none;
+    list-style: none; /* Remove default bullet points for list items */
 }
 
 .navbar li a{
     font-size: 2vw;
     color: white;
-    display: block;
     font-family: "Sour Gummy", sans-serif;
 }
 /* ---------------------------------------------------------------------------- */
@@ -308,8 +305,8 @@ body.menu-open #searchBar {
 /* ------------------------------ Footer ------------------------------ */
 .foot{
     list-style: none;     /* remove list style */
-    display: flex;
-    flex-wrap: wrap;
+    display: flex;       
+    flex-wrap: wrap;      /* Allows child elements to wrap onto the next line if needed */
     background-color: black;
     color: white;
     justify-content:center;
@@ -323,17 +320,18 @@ body.menu-open #searchBar {
     flex-wrap: wrap;
     background-color: black;
     color: white;
-    justify-content:center;
-    text-align: center;
+    justify-content:center; /* Centers heading text horizontally */
+    text-align: center;    /* Centers heading text within its element */
     width: 100%;
     font-family: "Roboto", sans-serif;
 }
 
+/* Styling for lists of information within the footer */
 .infoList{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Stacks child elements vertically */
     justify-content: center;
-    line-height: 2.2;
+    line-height: 2.2; /* Sets the line height for better readability */
     width: 100%;
     list-style: none;
 }
@@ -346,10 +344,10 @@ body.menu-open #searchBar {
 .row{
     display: flex;
     justify-content: center;
-    gap: 18vw;
+    gap: 18vw; /* Sets horizontal spacing between items */
     width: 100%;
-    margin-bottom: 0.5rem;
-    white-space: nowrap;
+    margin-bottom: 0.5rem; /* Adds space below the row */
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
 
 .socialMedia{
@@ -367,22 +365,22 @@ body.menu-open #searchBar {
 /* ------------------------------ Back To Top Button ------------------------------ */
 
 #myBtn {
-    display: none;
-    position: fixed;
+    display: none; /* Initially hides the button */
+    position: fixed; /* Keeps the button fixed in the viewport */
     bottom: 2vw;
     right: 3vw;
-    z-index: 99;
+    z-index: 99; /* Ensures the button appears on top of most elements */
     font-size: 1.8vw;
-    border: none;
+    border: none; /* Removes the default border styling */
     background-color: rgb(255, 0, 0);
     color: white;
-    cursor: pointer;
-    padding: 1vw;
-    border-radius: 4px;
+    cursor: pointer; /* Changes the cursor to a pointer when hovering */
+    padding: 1vw; /* Adds padding around the text inside the button */
+    border-radius: 4px; /* Rounds the corners of the button */
   }
   
 #myBtn:hover {
-    background-color: #154c71;
+    background-color: #154c71; /* Changes the background color when the button is hovered */
 }
 /* -------------------------------------------------------------------------------- */
 
@@ -397,10 +395,10 @@ body.menu-open #searchBar {
     transform: translate(-50%, -50%);    /*Adjust the position to exactly center */
     max-width: 20vw;
     height: 40vh;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20vh;
-    justify-content: center;
-    white-space: nowrap;
+    background-color: rgba(255, 255, 255, 0.9); /* Adds a semi-transparent white background */
+    padding: 20vh; /* Adds spacing inside the modal */
+    justify-content: center; /* Centers the content inside the modal */
+    white-space: nowrap;  /* Prevents text wrapping inside the modal */
 }
 
 .modal-content p{
@@ -409,14 +407,14 @@ body.menu-open #searchBar {
 }
 
 .close-button{
-    color: #aaa;
+    color: lightgrey;
     font-size: 3vw;
     font-weight: bold;
-    position: absolute;
-    top: 1vh;
-    right: 1vw;
-    cursor: pointer;
-    background: none;
+    position: absolute; /* Allows precise positioning within the modal */
+    top: 1vh;  /* Positions the button slightly from the top */
+    right: 1vw; /* Positions the button slightly from the right */
+    cursor: pointer; 
+    background: none; /* Removes any background, border, outline styling */
     border: none;
     outline: none;
 }
@@ -430,7 +428,7 @@ body.menu-open #searchBar {
 
 button:hover,
 input[type="submit"]:hover{
-    background-color: rgb(99, 202, 202);
+    background-color: rgb(99, 202, 202); /* Adds a light blue hover effect */
     cursor: pointer;
 }
 /* ---------------------------------------------------------------------------------------- */
