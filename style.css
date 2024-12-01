@@ -1035,28 +1035,28 @@ h2 {
 /* ------------------------ */
 /* -------------------------------------------------------------------------- */
 
-/* Program */
+/* ------------------------------ Program Page ------------------------------ */
 .prgImg{
     margin-bottom: 2rem;
-    position: relative;
+    position: relative; /* Ensures that absolute positioning can be used for child elements */
 }
 
 .prgImg img{
     filter: brightness(0.5);
     transform: scale(1);
-    width: 100%;
+    width: 100%; /* Makes the image width 100% of its container */
 }
 
 .prgImg h2{
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: absolute; /* Positions the heading absolutely inside the container */
     top: 10%; /* Places it near the top */
-    left: 50%;
-    transform: translateX(-50%);
+    left: 50%; /* Aligns the heading horizontally to the center of the container */
+    transform: translateX(-50%); /* Corrects the alignment by moving the heading left by 50% of its width */
     color:rgb(137, 235, 235);
     font-size: 6vw;
-    text-align: center;
+    text-align: center; /* Centers the text horizontally */
     font-family: "Protest Revolution", sans-serif;
 }
 
@@ -1065,7 +1065,7 @@ h2 {
     align-items: center; /* Vertically center the items */
     justify-content: space-between; /* Space out the image and text */
     gap: 3vw; /* Space between the children and about section */
-    max-width: 80%; /* Optional: Set a max width for the layout */
+    max-width: 80%; /* Set a max width for the layout */
     margin: 0 auto; /* Center the container horizontally */
     margin-bottom: 2vw;
 }
@@ -1079,7 +1079,7 @@ h2 {
 .row1 img {
     width: 100%; /* Make image fill its parent container */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 1vw; /* Optional: rounded corners for the image */
+    border-radius: 1vw; 
     filter: brightness(0.5);
 }
 
@@ -1090,9 +1090,9 @@ h2 {
     left: 50%; /* Position horizontally in the center */
     transform: translate(-50%, -50%); /* Offset to truly center it */
     white-space: nowrap;
-    color: white; /* Set the text color */
-    font-size: 1.2vw; /* Adjust font size as needed */
-    font-weight: bold; /* Bold the text */
+    color: white; 
+    font-size: 1.2vw; 
+    font-weight: bold; 
     z-index: 1; /* Ensure the heading is on top of the image */
 }
 
@@ -1102,11 +1102,11 @@ h2 {
     padding: 1vw; /* Padding for the text */
     font-size: 1vw; /* Adjust the font size */
     text-align: left; /* Align text to the left */
-    background-color: rgb(14, 185, 185); /* Light background color */
+    background-color: rgb(14, 185, 185); 
     color: rgb(35, 68, 126);
     font-family: "Sour Gummy", sans-serif;
     font-weight: bold;
-    border-radius: 0.8vw; /* Optional: rounded corners */
+    border-radius: 0.8vw; 
 }
 
 /* adult */ 
@@ -1115,7 +1115,7 @@ h2 {
     align-items: center; /* Vertically center the items */
     justify-content: space-between; /* Space out the image and text */
     gap: 3vw; /* Space between the children and about section */
-    max-width: 80%; /* Optional: Set a max width for the layout */
+    max-width: 80%; /* Set a max width for the layout */
     margin: 0 auto; /* Center the container horizontally */
     margin-bottom: 2vw;
 }
@@ -1127,7 +1127,7 @@ h2 {
 .row2 img {
     width: 100%; /* Make image fill its parent container */
     height: auto; /* Maintain aspect ratio */
-    border-radius: 1vw; /* Optional: rounded corners for the image */
+    border-radius: 1vw; /* rounded corners for the image */
     filter: brightness(0.5);
 }
 
@@ -1138,9 +1138,9 @@ h2 {
     left: 50%; /* Position horizontally in the center */
     transform: translate(-50%, -50%); /* Offset to truly center it */
     white-space: nowrap;
-    color: white; /* Set the text color */
-    font-size: 1.2vw; /* Adjust font size as needed */
-    font-weight: bold; /* Bold the text */
+    color: white; 
+    font-size: 1.2vw; 
+    font-weight: bold;
     z-index: 1; /* Ensure the heading is on top of the image */
 }
 
@@ -1148,14 +1148,13 @@ h2 {
 .About2 {
     flex: 1; /* Take up the remaining space */
     padding: 1vw; /* Padding for the text */
-    font-size: 1vw; /* Adjust the font size */
+    font-size: 1vw; 
     text-align: left; /* Align text to the left */
-    background-color: rgb(14, 185, 185); /* Light background color */
+    background-color: rgb(14, 185, 185);
     color: rgb(35, 68, 126);
     font-family: "Sour Gummy", sans-serif;
     font-weight: bold;
-    
-    border-radius: 0.8vw; /* Optional: rounded corners */
+    border-radius: 0.8vw; 
 }
 .Trainpic{
     display: flex;
@@ -1166,8 +1165,8 @@ h2 {
     position: relative;
 }
 .Trainpic a img{
-    max-width: 80%;
-    width: 60%;
+    max-width: 80%; /* Ensures the image doesn't exceed 80% of its container's width */
+    width: 60%; /* Sets the image width to 60% of its container's width */
     filter: brightness(0.5);
     border-radius: 1vw;
     display: flex;
@@ -1180,13 +1179,14 @@ h2 {
 
 .Trainpic a h3{
     position: absolute; 
-    color: rgb(253, 253, 253); /* Set the text color */
-    font-size: 3vw; /* Adjust font size as needed */
-    font-weight: bold; /* Bold the text */
+    color: rgb(253, 253, 253); 
+    font-size: 3vw; 
+    font-weight: bold; 
     top: 50%; /* Position the text vertically in the center */
     left: 50%; /* Position the text horizontally in the center */
     transform: translate(-50%, -50%); /* Center the text exactly within the image */
 }
+/* -------------------------------------------------------------------------- */
 
 /* screen resize*/
 @media (max-width: 576px ) {
@@ -1210,7 +1210,6 @@ h2 {
         width: 50vw;
         height: auto;
     }
-
 
     .navbar {
         height: auto;
