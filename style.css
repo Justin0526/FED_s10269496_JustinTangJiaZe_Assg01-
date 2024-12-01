@@ -435,22 +435,22 @@ input[type="submit"]:hover{
 
 /* ------------------------------ Home Page ------------------------------ */
 #welcome{
-    position: absolute;
-    top: 50%; 
-    left: 50%;
-    transform: translateX(-50%);
+    position: absolute; /* Used to overlap the picture */
+    top: 50%;  /* Vertically centers the element */
+    left: 50%;  /* Horizontally centers the element */
+    transform: translateX(-50%); /* Adjusts the position to ensure perfect centering */
     color:rgb(137, 235, 235);
     font-size: 5vw;
     text-align: center;
     font-family: "Protest Revolution", sans-serif;
-    white-space: nowrap;
+    white-space: nowrap; /* Prevents text from wrapping to the next line */
 }
 /* ----- video ----- */
 .video{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 5rem; /* Adds spacing above the video */
+    padding-bottom: 5rem; /* Adds spacing above the video */
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Horizontally centers the video */
 }
 
 .video iframe{
@@ -462,79 +462,83 @@ input[type="submit"]:hover{
 /* ----- Swim With Us ----- */
 .swimTgt{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Aligns children elements in a vertical column */
+    align-items: center; /* Horizontally centers all children elements */
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Centers the container horizontally within its parent */
 } 
 
 .swimTgt h2, .swimTgt p{
-    text-align: center;
+    text-align: center; /* Centers the text for both headings and paragraphs */
 }
 
 .swimTgt h2{
-    font-size: 3vw;
+    font-size: 3vw; /* Makes the heading size responsive to the viewport width */
     padding-bottom: 1.5rem;
     font-family: "Dancing Script", cursive;
 }
 
-.swimTgt p{
-    font-size: 1.6vw;
+.swimTgt p{ 
+    font-size: 1.6vw; /* Makes the paragraph text size responsive */
     line-height: 1.5;
     width: 70%;
-    margin-bottom: 5rem;
+    margin-bottom: 5rem; /* Adds spacing below the paragraph */
     font-family: "Sour Gummy", sans-serif;
 }
 /* ------------------------*/
 
 /* ----- Slideshow ----- */
-.mySlides {display:none}
+.mySlides {
+    display:none; /* Hide all slideshow images initially */
+}
+
 img {
-    vertical-align: middle;
-    filter: brightness(0.5);
+    filter: brightness(0.5); /* Dim the image brightness to 50% */
 }
 
 img:hover{
-    transform:scale(1.1);
+    transform:scale(1.1); /* Increases the size of the image slightly */
 }
 
 /* Slideshow container */
 .slideshow-container {
   max-width:100%;
-  height: auto;
-  position: relative;
-  margin: auto;
+  height: auto; /* Maintain aspect ratio */
+  position: relative; /* Position elements within the container */
+  margin: auto; /* Center the container */
 
 }
 .slideshow-container .mySlides img{
-    transform: scale(1);
-    width: 100%;
+    transform: scale(1); /* Ensure the images are initially at full size */
+    width: 100%; /* Make sure the images take up the full width of the container */
 }
 /* Next & previous buttons */
 .previous, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: auto;
-  padding: 2vw;
+  cursor: pointer; /* Make the buttons clickable */
+  position: absolute; /* Position buttons absolutely inside the slideshow container, to overlap picture */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust position to exactly center vertically */
+  width: auto; /* Let the width adjust automatically based on content */
+  padding: 2vw; /* Add padding around the button */
   color: white;
   font-weight: bold;
   font-size: 3vw;;
-  transition: 0.6s ease;
-  border-radius: 0 1rem 1rem 0;
+  transition: 0.6s ease; /* Smooth transition effect */
+  border-radius: 0 1rem 1rem 0; /* Round the corners of the button */
   user-select: none;   /* Prevents user from selecting the button */
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-  padding-right: 4vw;
+  right: 0; /* Place the next button on the right */
+  border-radius: 3px 0 0 3px; /* Round the left corners of the next button */
+  padding-right: 4vw; /* Extra padding on the right side of the next button */
 }
+
 .previous{
     padding-left: 4vw;
 }
+
 /* On hover, add a background color with a little bit see-through */
 .previous:hover, .next:hover {
   background-color: rgba(33, 178, 214, 0.5);
@@ -542,74 +546,75 @@ img:hover{
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
+  cursor: pointer; /* Make the dots clickable */
+  height: 15px; 
   width: 15px;
-  margin: 0 1vw;
-  background-color: #525151;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  margin: 0 1vw; /* Spacing between dots */
+  background-color: Darkgrey;
+  border-radius: 50%; /* Make the dots circular */
+  display: inline-block; /* Display the dots in a horizontal row */
+  transition: background-color 0.6s ease; /* Smooth transition when active state changes */
 }
 
 .active, .dot:hover {
-  background-color: #098cf8;
+  background-color: #098cf8; /* Change color to blue when active or hovered */
 }
 
 
 /* Fading animation */
 .fade {
-  animation-name: fade;
+  animation-name: fade; /* Use the fade animation */
   animation-duration: 1.5s;
 }
 
+/* Keyframes for the fade animation */
 @keyframes fade {
-  from {opacity: 0.7} 
-  to {opacity: 1}
+  from {opacity: 0.7}  /* Start with 70% opacity */
+  to {opacity: 1}  /* End with full opacity (100%) */
 }
 
 /* ----- program ----- */
 .program {
     font-size: 1.8vw;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 1rem;
+    flex-direction: row; /* Arrange child elements in a row */
+    flex-wrap: wrap; /* Allow items to wrap if there's insufficient space */
+    gap: 1rem; /* Add space between items */
     justify-content: center;
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 80%; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container on the page */
 }
 
 .program section{
-    flex-basis: 40%;
-    position: relative;
+    flex-basis: 40%; /* Each section takes up 40% of the container width */
+    position: relative; /* Positioning context for absolute elements inside */
     display: flex;
     align-items:center;
     justify-content: center;
-    border-radius: 0.5rem;
+    border-radius: 0.5rem; /* Rounded corners */
 }
 
 .program h3 a {
-    margin: 0;
+    margin: 0; /* Remove any default margin and padding */
     padding: 0; 
     font-size: 1.5vw;
     font-family: "Pacifico", cursive;
-    position: absolute;
-    z-index: 3;
+    position: absolute; /* Absolute positioning within the section */
+    z-index: 3; /* Ensure the link is above other elements */
     color: white;
-    top: 40%;
+    top: 40%; /* Position the link 40% from the top */
     display: flex;
     align-items:flex-start;
     justify-content:center;
-    text-align: center;
-    width: 70%;
-    white-space: nowrap;
+    text-align: center; 
+    width: 70%; /* Set the width of the link */
+    white-space: nowrap; /* Prevent text from wrapping */
 }
 
 .program img{
-    filter: brightness(0.5);
+    filter: brightness(0.5); /* Dim the image to 50% brightness */
     border-radius: 1rem;
-    width: 100%;
+    width: 100%; /* Make the image take up the full width of its container */
 }
 /*-------------------*/
 
@@ -618,65 +623,60 @@ img:hover{
 padding-top: 1.2rem;
 max-width: 100%;
 display: flex;
-flex-direction:column;
-align-items: center;
+flex-direction:column; /* Stack items vertically */
+align-items: center;  /* Center items horizontally */
 }
 
 .contact h2{
     font-size: 2.8vw;
     font-family: "Dancing Script", cursive;
-    margin-bottom: 2rem;
-}
-
-.contact table{
-    width: 50%;   
+    margin-bottom: 2rem; /* Add space below the heading */
 }
 
 .contact .form-table{
-    width: 60%;
+    width: 60%; /* Limit form width to 60% of its parent */
 }
 
 .contact label{
     font-size: 2.0vw;
     font-family: "Protest Revolution", sans-serif;
     display: flex;
-    justify-content: flex-start;
-    margin-bottom: 1.2rem;
+    justify-content: flex-start; /* Align label content to the left */
+    margin-bottom: 1.2rem; /* Add space below the label */
     font-weight: bold;
-    color: #333;
+    color: rgb(59, 57, 57); /* Set the text color to a dark grey */
 }
 
 .contact input{
     display:flex;
     justify-content: center;
-    margin-bottom: 2.2rem;
+    margin-bottom: 2.2rem; /* Add space below each input */
     font-size: 1.2vw;  
     font-family: "Parkinsans", sans-serif;
-    border-radius: 1rem;
-    width: 80%;
-    height: auto;
-    border: 0 transparent; 
-    border-bottom: 0.2em solid #ccc;
-    padding-left: 2%;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    border-radius: 1rem; /* Round the corners of the input fields */
+    width: 80%; /* Set the width of the input fields to 80% */
+    height: auto; 
+    border: 0 transparent;  /* Remove the default border */
+    border-bottom: 0.2em solid rgb(151, 149, 149); /* Add a bottom border for styling */
+    padding-left: 2%; /* Add padding on the left side */
+    padding-top: 1vh; /* Add vertical padding to the top */
+    padding-bottom: 1vh;  /* Add vertical padding to the bottom */
     
 }
 
 .contact .map-table{
-    margin-bottom: 3vw;
-    border:4px #c30404 ;
+    margin-bottom: 3vw;  /* Add space below the map */
 }
 
 .submit{
     font-size: 1.6vw;
     font-family: "Dancing Script", cursive;
-    margin-bottom: 2vw;
-    border-radius: 0.5rem;
+    margin-bottom: 2vw; /* Add space below the button */
+    border-radius: 0.5rem; /* Round the corners of the button */
     height: auto;
-    border: 0 transparent; 
-    border-bottom: 0.2em solid #ccc;
-    width: 60%;
+    border: 0 transparent;  /* Remove the default border */
+    border-bottom: 0.2em solid rgb(151, 149, 149); /* Add a bottom border for styling */
+    width: 60%; /* Set the width of the submit button */
     margin-left: 55%;
     margin-top: 2vh;
 }
